@@ -5,8 +5,7 @@ import time
 import numpy as np
 
 
-# read from csv that contains client id and client secret
-# instead of sharing my personal details in notebook
+#File contains Client_ID and Client_Secret_ID required to use Spotify's API
 spotify_client_info = pd.read_csv("C:\\Users\\lasmi\\PycharmProjects\\SpotifyProject\\Data\\spotify_client_info.csv")
 
 client_id = spotify_client_info.iloc[0,0]
@@ -15,8 +14,7 @@ client_secret = spotify_client_info.iloc[0,1]
 client_credentials_manager = SpotifyClientCredentials(client_id, client_secret)
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
-# my spotify username and playlist ids
-# on playlist page, click on "..." -> then on "Share" -> then "Copy Spotify URI"
+#Function to get tracks from a specific user's playlist
 def getTrackIDs(user, playlist_id):
     ids = []
     playlist = sp.user_playlist(user, playlist_id)
@@ -26,9 +24,7 @@ def getTrackIDs(user, playlist_id):
     return ids
 
 
-# Get spotify singular song data from these locations
-# https://developer.spotify.com/documentation/web-api/reference/#/operations/get-track
-# https://developer.spotify.com/documentation/web-api/reference/#/operations/get-audio-features
+#Gets Spotify's song features from the song's ID
 def getTrackFeatures(id):
     meta = sp.track(id)
     features = sp.audio_features(id)
@@ -64,7 +60,7 @@ def getTrackFeatures(id):
              key, mode, uri]
     return track
 
-# loop over track ids to get all songs in playlist
+#Loops over track ids to get all songs in playlist
 def loop_playist(playlist_ids):
     tracks = []
     for i in range(len(playlist_ids)):
@@ -73,7 +69,7 @@ def loop_playist(playlist_ids):
         tracks.append(track)
     return tracks
 
-# turn data into dataframe
+#Creates dataframes with columns for each of Spotify's features
 def get_spotify_df(tracks, year):
     df = pd.DataFrame(tracks, columns = ['name', 'album', 'artist', 'release_date',
                                          'length', 'popularity', 'acousticness', 'danceability',
@@ -83,7 +79,7 @@ def get_spotify_df(tracks, year):
     return df
 
 
-#Add release year
+#Add release year to the dataframe
 def get_years(df):
     years = []
     for date in df['release_date'].values:
@@ -94,7 +90,7 @@ def get_years(df):
     df['release_year'] = years
     return df
 
-#get data
+#CSV that includes the username and playlist ID for each year between 2016-2020
 spotify_users_and_playlists = pd.read_csv("C:\\Users\\lasmi\\PycharmProjects\\SpotifyProject\\Data\\spotify_users_and_playlists.csv")
 
 luke_user = spotify_users_and_playlists.iloc[0,0]
@@ -141,4 +137,5 @@ df_2017 = pd.read_csv(f'C:/Users/lasmi/PyCharmProjects/SpotifyProject/Data/Luke_
 df_2018 = pd.read_csv(f'C:/Users/lasmi/PyCharmProjects/SpotifyProject/Data/Luke_2018_Top_Songs.csv')
 df_2019 = pd.read_csv(f'C:/Users/lasmi/PyCharmProjects/SpotifyProject/Data/Luke_2019_Top_Songs.csv')
 df_2020 = pd.read_csv(f'C:/Users/lasmi/PyCharmProjects/SpotifyProject/Data/Luke_2020_Top_Songs.csv')
+
 
