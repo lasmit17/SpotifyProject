@@ -1,0 +1,101 @@
+name,album,artist,release_date,length,popularity,acousticness,danceability,energy,instrumentalness,liveness,loudness,speechiness,tempo,valence,time_signature,key,mode,uri
+Katie Queen Of Tennessee,Apache Relay,The Apache Relay,2014-01-01,204653,0,0.101,0.56,0.913,0.000207,0.255,-5.388,0.0308,127.022,0.723,4,2,1,spotify:track:5iXuX70Sxp6sKdumBcQQW7
+Borderline,Borderline,Madeline Juno,2018-06-15,207992,32,0.115,0.659,0.626,0.0,0.139,-5.904,0.0433,126.972,0.481,5,8,0,spotify:track:5Bs2WLFNYyPONV6FiLVUTy
+Winter of '98,Winter of '98,Cayucas,2018-11-30,222613,0,0.312,0.749,0.708,1.72e-06,0.236,-5.84,0.0393,120.058,0.89,4,7,1,spotify:track:7Fba2vv2ye3iNplGLLkIy1
+Social Cues,Social Cues,Cage The Elephant,2019-04-19,219053,66,0.0119,0.668,0.913,6.7e-06,0.111,-3.097,0.0348,132.039,0.933,4,9,1,spotify:track:1KuVdyg8d6NlRhbpHxg5UF
+Reckless Lover,Welcome Back,Handsome Ghost,2018-01-26,250623,33,0.117,0.524,0.528,0.137,0.0638,-9.765,0.0303,116.979,0.458,4,9,1,spotify:track:4GaFm87ain13qtg3CkWR8b
+Talia,Talia,King Princess,2018-04-13,207720,62,0.549,0.401,0.507,0.0,0.164,-7.001,0.089,180.159,0.236,4,2,1,spotify:track:53jbdPQBaH6WaQvW0zmGBs
+Black Madonna,Social Cues,Cage The Elephant,2019-04-19,226533,64,0.00122,0.705,0.728,0.0693,0.0753,-3.184,0.035,109.991,0.966,4,4,0,spotify:track:4Y6GIje3GErVRIq1Ff5BJq
+Are You Ready For Love? - Remastered,Diamonds (Deluxe),Elton John,2017-11-10,212440,64,0.254,0.803,0.748,0.00212,0.113,-5.221,0.0314,116.532,0.752,4,2,1,spotify:track:3D15FZXmjfna7aFfKmEajd
+Hymn for the Weekend,A Head Full of Dreams,Coldplay,2015-12-04,258266,85,0.211,0.491,0.693,6.92e-06,0.325,-6.487,0.0377,90.027,0.412,4,0,0,spotify:track:3RiPr603aXAoi4GHyXx0uy
+Was It Something I Said,Was It Something I Said,MyKey,2019-07-26,220588,33,0.618,0.587,0.724,0.000166,0.157,-6.775,0.0321,106.994,0.837,4,6,1,spotify:track:2BGJxKzEcF2YnSzV1ov2Nm
+Honeybee,Living Mirage,The Head And The Heart,2019-05-17,196055,67,0.118,0.642,0.52,0.000509,0.552,-7.886,0.0387,136.014,0.488,4,9,1,spotify:track:5CalS8Gn69OOrR9aiw0ZO9
+Erinner mich dich zu vergessen - Radio Version,Erinner mich dich zu vergessen,Yvonne Catterfeld,2006-10-06,206600,17,0.526,0.555,0.559,0.0,0.102,-5.87,0.0288,129.977,0.336,4,0,0,spotify:track:12SiKF2gB7Rpfwu1Ymbtrk
+Louisa,Strange Trails,Lord Huron,2015-04-07,189669,46,0.658,0.64,0.802,0.582,0.256,-6.025,0.0281,130.035,0.689,4,2,1,spotify:track:4BzUOXsZ3DqryXFi1bB5aV
+Everything (feat. Rezar),Everything (feat. Rezar),Nisse,2018-09-28,228093,9,0.523,0.664,0.404,0.03,0.121,-8.286,0.0349,122.935,0.266,4,1,0,spotify:track:6qwEbTwZeS6YfNlOanBu7J
+Fahrrad,Fahrrad,Juli,2019-04-26,184266,41,0.113,0.761,0.691,1.39e-05,0.137,-6.444,0.0322,129.004,0.458,4,0,0,spotify:track:0uc1O8BfCudfUbIVuwZwLm
+You're Somebody Else,You're Somebody Else,flora cash,2018-06-19,218883,75,0.841,0.713,0.452,0.0038,0.105,-9.638,0.0295,102.963,0.235,4,1,1,spotify:track:0pdKRp2sUthTPe7RLWpPqQ
+Rucksack,Die Reise,Max Giesinger,2018-11-23,213933,25,0.172,0.727,0.61,0.0,0.126,-6.084,0.0429,117.05,0.591,4,9,1,spotify:track:1VVigdRRsCMxJMA8289hvz
+Mut,A!,Alexa Feser,2019-05-10,249124,48,0.871,0.59,0.355,1.01e-06,0.11,-9.993,0.0455,140.119,0.27,4,11,0,spotify:track:2KQePqi9J0M0boApRntwmz
+Breaking Down,"""Let's Rock""",The Black Keys,2019-06-28,205037,38,0.00433,0.444,0.738,0.00211,0.165,-5.351,0.0312,107.585,0.464,4,2,1,spotify:track:4s7DGDyfSty3AS71Xrtt1D
+Solid Action,Solid Action,CHAMPS,2019-01-22,261014,26,0.00211,0.731,0.692,0.014,0.694,-5.755,0.0249,109.998,0.596,4,11,0,spotify:track:4ASz3epE0CAmVFV0L2DGoP
+(I'm Gonna) Love Me Again,Rocketman (Music From The Motion Picture),Elton John,2019-05-24,250773,56,0.0576,0.596,0.882,0.0,0.0757,-3.559,0.0341,127.993,0.846,4,1,1,spotify:track:1q8lLOgfciaGLwXCvOpH6w
+slow motion,slow motion,flor,2019-03-08,180773,0,0.00919,0.705,0.681,3.77e-06,0.275,-4.776,0.0263,103.032,0.76,4,1,1,spotify:track:68f2VCzxSXNdHXMpZKLacF
+"Who Are You, Really?",Reds,Mikky Ekko,2010-06-29,147000,0,0.002,0.643,0.726,4.52e-06,0.0766,-6.219,0.0476,143.97,0.725,3,10,0,spotify:track:2zXKqJFHefEgjlg3rYW7Rx
+Way out There,Strange Trails,Lord Huron,2015-04-07,250359,48,0.933,0.549,0.454,0.0246,0.521,-7.898,0.0297,127.038,0.0513,4,11,0,spotify:track:1cS1SMKBkrqFGVIjUXbWAm
+Style,Imagination,Foster The People,2019-06-21,223906,0,0.00633,0.59,0.906,0.00151,0.386,-2.892,0.0618,111.997,0.541,4,5,1,spotify:track:55sjP3Ng5T0Lcb6dkHdaM8
+Weinen,Lieder (Deluxe Version),Adel Tawil,2013-11-08,195840,36,0.0241,0.678,0.829,7.91e-06,0.157,-4.19,0.0269,129.935,0.876,4,6,0,spotify:track:6XHOM7cblqWVXeRFM1fnaq
+Cemetery,Cemetery,COIN,2018-11-16,177146,0,0.148,0.655,0.856,3.67e-06,0.126,-4.615,0.0315,126.984,0.941,4,1,0,spotify:track:4hnjS0dbHpJwBlCkEAKVyX
+I Will Be Back One Day,Lonesome Dreams,Lord Huron,2012-10-09,205906,46,0.396,0.577,0.738,4.05e-05,0.234,-6.197,0.0361,123.983,0.489,4,9,1,spotify:track:5n2AfMKgfiSWFXdwgUQqtN
+Good Morning,Gameshow (Deluxe Edition),Two Door Cinema Club,2016-10-14,236173,21,0.307,0.766,0.699,0.000411,0.15,-6.776,0.0305,115.03,0.82,4,9,0,spotify:track:1VL13edj8tNFMc2nJZfQsT
+No Plan,"Wasteland, Baby!",Hozier,2019-03-01,331013,54,0.115,0.456,0.75,1.69e-05,0.114,-4.609,0.0444,80.019,0.564,4,9,0,spotify:track:4byXh93siQtzKLdjKuJaAF
+No Hook,6 Rings 2 (No Dj),OJ Da Juiceman,2013-05-23,167471,42,0.00013,0.805,0.385,0.0,0.28,-7.723,0.1,128.998,0.048,4,1,1,spotify:track:5O05ZafSo9kLXOSaoTYi0o
+Drive Away,Eternal Reach,The Brummies,2018-04-06,274325,0,0.154,0.476,0.626,3.23e-05,0.0762,-4.789,0.0325,104.44,0.528,4,5,0,spotify:track:2eWigKu3KImA4oJyF6OAYM
+Wenn ich angekommen bin,DNA,Madeline Juno,2017-09-08,275146,27,0.96,0.739,0.36,0.0,0.177,-8.993,0.0345,109.134,0.633,4,5,1,spotify:track:2lBDPsdFz1IAFMt04EmIRi
+Imagination,Imagination,Foster The People,2019-06-21,256266,72,0.115,0.744,0.642,3.95e-05,0.279,-4.6,0.031,94.988,0.63,4,2,0,spotify:track:2flxduIqEbsicdmPyj1WVW
+Roller,Roller,Apache 207,2019-08-23,158853,59,0.0303,0.928,0.758,0.00446,0.29,-6.471,0.143,128.015,0.729,4,10,0,spotify:track:5dhQeuLGmlhfwlI6BWfSpo
+Besser mit Dir,Besser mit Dir,Jeanette Biedermann,2019-08-16,195453,18,0.465,0.624,0.657,0.0,0.772,-6.459,0.0333,96.038,0.389,4,5,1,spotify:track:7A6oTWVdgpsBdHkSerTc5c
+Automatisch,Automatisch,Madeline Juno,2019-05-31,195159,25,0.0632,0.709,0.739,0.0,0.234,-5.914,0.0486,123.032,0.406,4,0,0,spotify:track:4x1efDhTmQUlmPPl8SQEHe
+Hope (feat. Naomi Wild),Hope (feat. Naomi Wild),Tim Legend,2016-11-22,173931,29,0.196,0.822,0.6,0.0,0.0835,-6.235,0.331,142.923,0.281,4,11,0,spotify:track:2v7EYRJaqHg29z1jnx59yI
+Ich will immer wieder... dieses Fieber spür'n,So Wie Ich Bin,Helene Fischer,2009-01-01,210133,60,0.246,0.723,0.899,0.0,0.118,-2.428,0.0345,121.054,0.591,4,2,0,spotify:track:70fRUZsAxNKuxTy8gp4nKT
+Shine A Little Light,"""Let's Rock""",The Black Keys,2019-06-28,196776,57,0.0217,0.44,0.719,5.09e-06,0.0663,-6.645,0.0445,111.398,0.523,4,8,0,spotify:track:365TSrFPqM66giaxJuafR3
+Your Song,Elton John,Elton John,1970-04-10,241786,79,0.828,0.554,0.315,5.53e-06,0.101,-11.028,0.0298,128.157,0.325,4,3,1,spotify:track:38zsOOcu31XbbYj9BIPUF1
+Everything's Fine,Everything's Fine,Jamie Drake,2018-08-09,209160,41,0.832,0.484,0.417,0.000199,0.0723,-8.956,0.0326,117.895,0.156,4,4,0,spotify:track:6SRzKq8y1qHT2aSKphQ03C
+Besser werden,Guten Morgen Freiheit,Yvonne Catterfeld,2017-03-10,177186,39,0.661,0.698,0.376,0.0,0.12,-8.57,0.0721,94.04,0.402,4,1,1,spotify:track:2NuMoFTEyHQZEuAf2ifCrO
+The Storm,The Storm,Bronze Radio Return,2018-10-12,244975,19,0.197,0.438,0.376,0.00208,0.148,-8.972,0.0275,144.793,0.23,4,2,1,spotify:track:6YiBgksAbL67WzThgUzcvJ
+Taxi,Taxi,EXES,2017-12-15,192000,12,0.0718,0.454,0.483,0.0,0.112,-9.374,0.0882,210.048,0.476,4,0,1,spotify:track:0kn0L1N40Ek2d1RYIuGicc
+Tokyo Smoke,Social Cues,Cage The Elephant,2019-04-19,205693,55,1.67e-05,0.453,0.953,0.0825,0.106,-3.058,0.152,142.96,0.446,4,6,0,spotify:track:3POYMPJ0HJGtBc7aO2H7QV
+Phantomschmerz,DNA,Madeline Juno,2017-09-08,217653,31,0.532,0.639,0.474,1.23e-06,0.0779,-9.269,0.0439,125.923,0.409,4,6,1,spotify:track:2rEUv5nAd8GW01RZL7w1O1
+Unbearably White,Father of the Bride,Vampire Weekend,2019-05-03,280200,49,0.219,0.531,0.422,0.0198,0.0608,-7.081,0.0571,188.056,0.579,4,10,1,spotify:track:2FjoCQaBoiEKs3FCvD0HkR
+"I Won't Say (I'm In Love) - From ""Hercules"" / Soundtrack Version",Disney's Greatest Volume 1,Various Artists,2001-01-01,140093,63,0.208,0.684,0.471,0.0,0.14,-9.43,0.043,121.081,0.453,4,0,1,spotify:track:3Dupb5AcaVFErlSSfl3szW
+Slip Away,No Shape,Perfume Genius,2017-05-05,165329,0,0.371,0.603,0.509,2.66e-05,0.0627,-6.824,0.0312,136.592,0.572,4,1,1,spotify:track:3Gda1sTo2ZjbztjjsnAsP3
+31 / 10,RKCB-Sides,RKCB,2017-11-03,270053,47,0.588,0.589,0.448,0.000581,0.109,-8.069,0.0442,76.037,0.122,4,5,1,spotify:track:4TwbiHzsLKYydj4CxrufQB
+Let Me Find Out - Remix,Let Me Find Out (Remix),Doe B,2013-01-01,251120,36,0.0358,0.722,0.52,0.0,0.171,-4.569,0.0646,140.058,0.553,4,8,1,spotify:track:5ZzRcg6Yzqvqe25lhiQTkI
+INC.,INC.,Dori Valentine,2018-10-05,226971,53,0.528,0.654,0.441,0.0,0.113,-6.673,0.0248,96.009,0.383,4,10,1,spotify:track:2PhljZgPDX8bpfPHYzlyY2
+Sweet Talk,saintmotelevision,Saint Motel,2016-10-21,192040,67,0.0392,0.67,0.843,0.0,0.225,-4.311,0.0454,117.01,0.713,4,1,1,spotify:track:6kcHg7XL6SKyPNd78daRBL
+I'll Be the One,My Gospel,Paul Cauthen,2016-10-14,261730,42,0.0787,0.63,0.656,0.000906,0.0953,-6.423,0.0276,133.012,0.432,4,0,0,spotify:track:01JkrDSrakX5UO5knhpKNA
+Baby Blu,Miss Universe,Nilüfer Yanya,2019-03-22,281170,0,0.052,0.778,0.774,0.00118,0.109,-7.402,0.0457,124.942,0.582,4,9,0,spotify:track:57BSFXytUc9trbqP9e3qrF
+Halt mich fest,DNA,Madeline Juno,2017-09-08,201800,34,0.836,0.503,0.203,0.0,0.0802,-12.401,0.0843,125.178,0.24,4,11,0,spotify:track:2CMJqmjDuUIxAC2y96dxCT
+Nichts war umsonst,Nichts war umsonst,Prinz Pi,2017-11-03,181506,32,0.326,0.711,0.792,0.0,0.285,-5.255,0.209,145.045,0.794,4,11,0,spotify:track:3CldMIOQKXJa6mcGsBQFMr
+Change,Take Good Care,The Revivalists,2018-11-09,229453,49,0.00133,0.508,0.903,7.88e-06,0.116,-4.91,0.0442,141.987,0.689,4,9,0,spotify:track:3bGWIrId9JXQYZZZzJIa0H
+Joy,Joy,Bastille,2019-05-02,192522,0,0.222,0.559,0.915,0.0,0.113,-4.811,0.132,117.914,0.361,4,9,1,spotify:track:3QpkbrYXtlU3LRJu3sTK6V
+"Can’t Let Go, Juno - Recorded at Spotify Studios NYC",Spotify Singles,Kishi Bashi,2017-07-12,261797,0,0.741,0.626,0.38,1.84e-05,0.321,-12.902,0.0468,86.077,0.263,4,6,0,spotify:track:0JCAkoJtmFbZFhtBoFj5SL
+Die Reise,Die Reise,Max Giesinger,2018-11-23,228693,50,0.0119,0.685,0.718,0.0,0.329,-6.993,0.069,108.988,0.46,4,11,0,spotify:track:29vchuApvo5GeOAeGdAbfz
+Lichterketten,Schlüsselkind (Deluxe Edition),Sasha,2018-04-13,234386,40,0.0619,0.494,0.584,0.0,0.127,-7.982,0.029,86.081,0.187,4,8,1,spotify:track:6NpATTWV1gg1IPSnmSGiWY
+Are You Bored Yet? (feat. Clairo),Scrawny / Are You Bored Yet?,Wallows,2019-02-18,178000,46,0.156,0.682,0.683,2.32e-05,0.273,-6.444,0.0287,120.023,0.64,4,8,0,spotify:track:2iyWlA4yxOs2hWN3x6fa8g
+Pilgrims,Teach Me How To Feel,New Dialogue,2019-05-03,217723,21,0.254,0.54,0.75,0.0,0.193,-5.352,0.0522,136.94,0.331,4,3,1,spotify:track:4z2DaDhK5mVmWb8eHTlIZr
+Vintage,Vintage,RIN,2019-05-24,167217,54,0.105,0.821,0.767,0.00434,0.117,-4.934,0.275,159.959,0.698,4,0,0,spotify:track:6xwI9R3ZHT9nWtSYvffYQm
+Irgendwas (feat. Bengio),Guten Morgen Freiheit,Yvonne Catterfeld,2017-03-10,213721,49,0.167,0.43,0.457,2.91e-05,0.202,-8.923,0.0616,82.547,0.132,4,5,1,spotify:track:3qlF4ENgFTbAbPZfFF9lxt
+To Chicago,To Chicago,Ciaran Lavery,2018-01-26,212905,18,0.802,0.741,0.393,0.00014,0.11,-10.839,0.0521,124.05,0.664,4,5,1,spotify:track:0TXCRTsqBgwlWnEOG2nijQ
+Vincent,Vincent,Sarah Connor,2019-04-05,283205,44,0.151,0.703,0.78,0.0,0.203,-4.393,0.0361,96.998,0.519,4,1,1,spotify:track:26T3IT7GhuHQOFQwkoRT2l
+Crash My Car,Crash My Car,COIN,2019-06-13,188306,0,0.00178,0.244,0.645,0.00574,0.301,-5.863,0.0456,183.577,0.529,5,5,1,spotify:track:1SDLrgSkAw2LcdXfWArPgs
+Schrei es raus,Schrei es raus (Deluxe),JORIS,2018-10-05,220030,25,0.0322,0.594,0.799,1.13e-05,0.457,-5.975,0.0556,123.93,0.586,4,9,0,spotify:track:2KogBYhOPW4W6Wvl7LraQP
+Crown (feat. Portugal. The Man),Vacation In Hell,Flatbush Zombies,2018-04-06,297369,49,0.00248,0.715,0.574,6.68e-05,0.128,-10.243,0.098,137.579,0.345,4,11,0,spotify:track:0kDHiwkrZutBHfjypFUzc2
+Superposition,Mirror Master,Young the Giant,2018-10-12,230959,62,0.00289,0.593,0.697,0.0257,0.14,-5.416,0.0399,170.0,0.428,4,7,1,spotify:track:67YPjbcxUypwNOwYBZquq1
+Philosopher's Throne,Tundra Boy Season One,Xavier Wulf,2015-02-12,180453,45,0.00487,0.85,0.458,0.0,0.122,-6.623,0.206,141.997,0.419,4,1,1,spotify:track:25EQ1EYpBTC26cRRoiLsTf
+Cry Baby,Wiped Out!,The Neighbourhood,2015-10-30,235160,74,0.00269,0.581,0.656,2.78e-06,0.101,-4.891,0.0294,108.033,0.338,4,4,0,spotify:track:0EfsDEYaSjGYd66Pr881nq
+Almost (Sweet Music),Almost (Sweet Music),Hozier,2019-01-16,217480,0,0.021,0.427,0.689,1.69e-06,0.203,-5.589,0.135,88.875,0.706,4,7,1,spotify:track:2e9N4vHYVUwSwRorBzsZXE
+Megaton Mile,Violet Street,Local Natives,2019-04-26,266533,48,0.0476,0.542,0.811,0.000168,0.813,-5.07,0.0759,120.477,0.58,4,0,0,spotify:track:6BwR8E925bOoGHFPS5tEOE
+Bad Dream,Doing the Best We Can,American Pets,2018-02-16,183293,27,0.137,0.68,0.778,0.00615,0.283,-6.947,0.0265,124.043,0.887,4,6,1,spotify:track:0QxEjhOpEJjZiYMtEifUgU
+Soleil noir,Mélancolie heureuse - Nouvelle impression,Tim Dup,2018-11-02,263000,35,0.322,0.778,0.514,0.000231,0.11,-10.271,0.0592,116.942,0.231,4,0,1,spotify:track:64rJjAZnINZSxJQdOHLIn4
+Drive,Here and Now,Gretta Ray,2018-08-10,302920,48,0.0256,0.721,0.44,1.49e-06,0.0862,-8.557,0.027,105.998,0.353,4,9,1,spotify:track:46608adygouaJBHJukvqPV
+Write This Down,Always Never The Same,George Strait,1999-01-01,219600,69,0.127,0.729,0.688,9.44e-06,0.295,-7.468,0.0264,123.867,0.671,4,3,1,spotify:track:1TanmIWbaUj5NVwJ3k4XPd
+"maybe, i'm afraid",finding it hard to smile,lovelytheband,2018-08-03,188734,47,0.0645,0.279,0.697,0.0,0.431,-8.355,0.0411,70.554,0.244,4,11,1,spotify:track:4LU5CO0wa6WryKRadMqFZf
+Glück,Wunderschönes Chaos,Bengio,2018-11-30,210585,30,0.515,0.662,0.647,2.51e-05,0.107,-6.612,0.0305,128.07,0.596,4,10,1,spotify:track:0gh56emaM8R2Muwb1GJl4z
+Ubu,Everything Is Forgotten,Methyl Ethel,2017-03-03,302786,0,0.00564,0.677,0.713,0.0604,0.112,-8.42,0.036,129.99,0.845,4,3,0,spotify:track:3FEBsU1XGqjwkDfMn8utnw
+Ich müsste lügen,Bling Bling,Juju,2019-06-14,172717,55,0.2,0.57,0.677,0.0,0.312,-5.855,0.179,137.939,0.412,4,5,0,spotify:track:5utzD9p8vqF0OJ5iPHmiAR
+I'm Gonna Try,East Van Girls / I'm Gonna Try,Shimmering Stars,2010-11-15,119208,29,0.389,0.317,0.736,2.02e-05,0.135,-7.056,0.0443,124.817,0.385,4,1,1,spotify:track:2EGrfjuxHDa45mxqf9kuVY
+Weak,The Click,AJR,2017-06-09,201159,0,0.131,0.669,0.579,0.0,0.19,-6.341,0.0468,123.979,0.66,4,5,1,spotify:track:7fBHjuqAIVOdy5xoNxy5YQ
+Ciao,Ciao,Nisse,2018-08-24,196320,13,0.203,0.726,0.675,0.0,0.105,-7.01,0.0564,142.052,0.637,4,7,1,spotify:track:6QbzQZXEv7ELHOGXI7FPRf
+"1, 2, 3, 4: Heute Nacht da feiern wir!",Sorgenfrei,Anna-Maria Zimmermann,2018-06-01,188708,40,0.0586,0.713,0.932,0.0,0.173,-2.506,0.0424,126.984,0.781,4,6,1,spotify:track:7xdAe77GxgnOsRhQwYr6bS
+Durchsichtig,DNA,Madeline Juno,2017-09-08,185693,24,0.28,0.624,0.573,0.0,0.108,-6.485,0.0436,130.077,0.31,4,2,0,spotify:track:0UW79EIVzgWjoUoA5nk2uf
+Heimweh nach wir,Zwischen meinen Zeilen (Deluxe),LEA,2018-12-07,206786,45,0.288,0.715,0.523,6.73e-06,0.0609,-6.748,0.0416,124.018,0.182,4,0,1,spotify:track:4lvmQOJfqFsSpLTwjGnOJ4
+Atemlos durch die Nacht,Best Of (Bonus Edition),Helene Fischer,2018-11-16,220013,31,0.0618,0.805,0.784,1.9e-06,0.188,-4.195,0.0531,128.047,0.821,4,11,1,spotify:track:34uXAh0iWouitfOV2Ia9ot
+Bohemian Bird,Waking Up The Giants,Grizfolk,2015-12-04,222226,40,0.0294,0.435,0.637,0.00461,0.0971,-8.081,0.0514,145.034,0.173,3,1,0,spotify:track:4IJpSYe4IvgC3VyhY9NEsd
+Still,Still,Madeline Juno,2017-05-05,205098,9,0.489,0.704,0.724,0.0,0.0901,-5.976,0.0689,129.986,0.394,4,6,1,spotify:track:2pwy8Mr1GA8o8qNDaJggbu
+Butterflies,Golden Hour,Kacey Musgraves,2018-03-30,219053,68,0.252,0.689,0.614,1.95e-05,0.178,-6.137,0.0306,141.97,0.411,4,4,0,spotify:track:30VHURM5NOfoZmqp2iKawS
+Christian Anders - Ruby 2010 - Radio Edit,Christian Anders - Ruby 2010,Christian Anders,2010-02-10,213386,22,0.25,0.737,0.941,0.0,0.187,-3.776,0.0271,129.98,0.81,4,2,1,spotify:track:1E9GZncvf0BD9nulOTUo41
+What's Up Danger (with Black Caviar),Spider-Man: Into the Spider-Verse (Soundtrack From & Inspired by the Motion Picture),Various Artists,2018-12-14,222306,72,0.00363,0.701,0.755,0.000795,0.121,-5.82,0.0417,95.036,0.116,4,2,1,spotify:track:5zsHmE2gO3RefVsPyw2e3T
+Come with Us,Come with Us,Bronze Radio Return,2018-12-07,219483,25,0.00124,0.646,0.838,0.318,0.351,-5.385,0.0343,125.0,0.55,4,11,0,spotify:track:6916q7BTaPyBNWYsHBvj4c
+Señorita,Shawn Mendes (Deluxe),Shawn Mendes,2019-06-19,190799,80,0.0392,0.759,0.548,0.0,0.0828,-6.049,0.029,116.967,0.749,4,9,0,spotify:track:6v3KW9xbzN5yKLt9YKDYA2
+Salted Caramel Ice Cream,Metronomy Forever,Metronomy,2019-09-13,210293,51,0.00711,0.893,0.523,0.0937,0.0876,-6.751,0.0639,125.027,0.883,4,11,1,spotify:track:13QZb2ua0JY2VJU9wG4PmQ

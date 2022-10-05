@@ -1,0 +1,101 @@
+name,album,artist,release_date,length,popularity,acousticness,danceability,energy,instrumentalness,liveness,loudness,speechiness,tempo,valence,time_signature,key,mode,uri
+Nichts war umsonst,Nichts war umsonst,Prinz Pi,2017-11-03,181506,32,0.326,0.711,0.792,0.0,0.285,-5.255,0.209,145.045,0.794,4,11,0,spotify:track:3CldMIOQKXJa6mcGsBQFMr
+I Know,I Know,Bayonne,2017-10-26,264060,0,0.826,0.706,0.687,0.901,0.177,-8.84,0.0327,137.003,0.724,4,0,1,spotify:track:7pd0EjaK0m2Er7fEsOzruu
+Je ne parle pas français,Je ne parle pas français,Namika,2018-04-13,180933,37,0.134,0.767,0.516,0.0,0.503,-9.466,0.0619,102.013,0.786,4,0,0,spotify:track:1KPE0cgUAsOd4LLf7qyZvq
+This Is America,This Is America,Childish Gambino,2018-05-06,225773,71,0.117,0.854,0.463,0.0,0.354,-6.159,0.137,120.024,0.549,4,5,1,spotify:track:0b9oOr2ZgvyQu88wzixux9
+Easy Love,Easy Love,Lauv,2017-10-06,224449,0,0.302,0.745,0.481,3.67e-06,0.0808,-8.291,0.054,137.001,0.229,4,2,1,spotify:track:2ZE3DJuizYTad2S4CvRRhK
+Eyes On You,Lambs & Lions,Chase Rice,2017-11-17,182493,70,0.323,0.606,0.652,0.0,0.201,-6.982,0.0281,97.155,0.476,4,9,1,spotify:track:5AnSllIrgGsCZzZJkVnApx
+Pink Rabbits,Trouble Will Find Me,The National,2013-05-27,276200,0,0.789,0.501,0.657,0.0997,0.0908,-7.332,0.0443,110.11,0.282,4,9,1,spotify:track:193ZaXTaD0dPz66pUYS3SQ
+Geheime Mission,Kontrastprogramm,SDP,2010-12-10,299990,21,0.373,0.783,0.709,0.0,0.628,-6.856,0.465,125.059,0.837,4,11,0,spotify:track:6vz11TeSx0VqyWlE1IlE5Y
+Fledermausland,Crackstreet Boys II X Version,Trailerpark,2012,258573,49,0.0295,0.678,0.778,0.0,0.26,-4.777,0.048,135.923,0.734,4,1,1,spotify:track:7gNXyyyP8WAe5fvryIpdUM
+Trop tard,Gabrielle Shonk,Gabrielle Shonk,2017-09-29,196600,26,0.331,0.517,0.314,1.05e-05,0.105,-8.165,0.031,107.262,0.127,3,1,1,spotify:track:23zhiszsn2ljGb4tzVJ6IL
+Look Alive (feat. Drake),Look Alive (feat. Drake),BlocBoy JB,2018-02-09,181263,75,0.00104,0.922,0.581,5.86e-05,0.105,-7.495,0.27,140.022,0.595,4,10,1,spotify:track:4qKcDkK6siZ7Jp1Jb4m0aL
+Usain Bolt,Usain Bolt,Teesy,2018-04-06,219960,15,0.147,0.813,0.388,0.0,0.171,-7.209,0.0607,131.949,0.843,4,7,1,spotify:track:36c5afeoNPoD57a0rof1gD
+BERLIN,iridescence,BROCKHAMPTON,2018-09-21,199013,44,0.051,0.716,0.621,0.0,0.307,-6.626,0.22,142.087,0.644,4,11,0,spotify:track:7GxBuIJugWanLsYj0mDrFX
+Lieblingsmensch,Nador,Namika,2015-07-24,190186,59,0.0824,0.539,0.533,0.0,0.129,-7.897,0.347,120.054,0.646,4,9,0,spotify:track:6oHDvarQSp0mf5AD1SyNH0
+Options,Options,Hippie Sabotage,2016-06-24,220726,62,0.782,0.411,0.523,9.08e-06,0.293,-11.786,0.241,144.738,0.205,4,11,1,spotify:track:3kKbRNJmzSWdDgfKqJ9Eck
+Paris in the Rain,Paris in the Rain,Lauv,2017-11-17,204712,0,0.771,0.426,0.408,7.88e-06,0.394,-9.419,0.0524,76.309,0.528,4,3,1,spotify:track:0RGUIOZtmOXTWOy5EjvQbP
+Drive Away,Eternal Reach,The Brummies,2018-04-06,274325,0,0.154,0.476,0.626,3.23e-05,0.0762,-4.789,0.0325,104.44,0.528,4,5,0,spotify:track:2eWigKu3KImA4oJyF6OAYM
+Jour 1,Chambre 12,Louane,2015-03-02,217346,57,0.03,0.642,0.54,0.0,0.33,-8.811,0.0422,110.013,0.394,4,0,0,spotify:track:13lXv8YxX0YYHM0SCk1KYb
+Nur noch einen Tag,Die Rache des kleinen Mannes,SDP,2008-07-25,198426,32,0.417,0.848,0.619,0.0,0.156,-6.853,0.0551,117.019,0.886,4,10,1,spotify:track:4TIhNSaPmsHkmQP75y7SRe
+Heaven Is A Place On Earth,Heaven On Earth,Belinda Carlisle,1987-10-05,247293,61,0.031,0.64,0.81,2.22e-06,0.0492,-10.19,0.033,122.868,0.804,4,4,1,spotify:track:58mFu3oIpBa0HLNeJIxsw3
+White Sand,Culture II,Migos,2018-01-26,202834,55,0.0307,0.827,0.591,0.0,0.273,-7.504,0.0744,142.113,0.402,4,5,0,spotify:track:2KokOIKdw4zZutDil85Ugh
+Von den fernen Bergen,Insomnia,Ali As,2017-06-30,198117,50,0.103,0.725,0.731,0.0,0.188,-8.047,0.115,135.858,0.855,4,6,1,spotify:track:5fd1GyTbdGkWK3klwlvRp3
+Rubber Band Man (feat. Cam'ron),Still Striving,A$AP Ferg,2017-08-18,205746,47,0.119,0.652,0.905,0.00346,0.109,-4.113,0.11,156.051,0.265,4,1,1,spotify:track:6YVbCxw3Yqyj4dRomrXPhl
+GAMBA,SATURATION II,BROCKHAMPTON,2017-08-25,202228,45,0.314,0.652,0.511,0.00267,0.163,-8.055,0.0916,95.045,0.296,4,5,1,spotify:track:4zbb4mISfck5isCpFsjsr3
+Bombenwetter,Rebell ohne Grund,Prinz Pi,2011-01-28,198809,29,0.0851,0.492,0.522,0.0025,0.132,-7.236,0.311,74.054,0.129,4,1,1,spotify:track:4P0qWY38WncBI2JhJJsaIH
+Live in the Moment,Woodstock,Portugal. The Man,2017-06-16,246786,61,0.002,0.546,0.583,0.173,0.115,-7.317,0.0348,128.017,0.235,4,6,0,spotify:track:60eOMEt3WNVX1m1jmApmnX
+Shallow,A Star Is Born Soundtrack,Lady Gaga,2018-10-05,215733,84,0.371,0.572,0.385,0.0,0.231,-6.362,0.0308,95.799,0.323,4,7,1,spotify:track:2VxeLyX666F8uXCJ0dZF8B
+I Miss Those Days,Gone Now,Bleachers,2017-06-02,217973,50,0.277,0.653,0.817,3.77e-06,0.344,-5.706,0.0405,125.018,0.661,4,0,1,spotify:track:7kK5ihEqZcXEWr1r8o99E2
+Sally,Everyone We Know,Thundamentals,2017-02-10,226560,55,0.229,0.712,0.855,0.0,0.193,-3.006,0.124,107.981,0.592,4,0,0,spotify:track:6POjRllkbgAEnLIhIFlI7j
+Wenn ich groß bin,Die bekannteste unbekannte Band der Welt,SDP,2012-10-19,206400,58,0.237,0.688,0.741,0.0,0.196,-4.666,0.168,99.867,0.804,4,5,1,spotify:track:5oEoQtl4qDwR7kstlTTBRu
+Cold War,Cold War,Cautious Clay,2017-09-22,203317,0,0.199,0.637,0.556,0.138,0.1,-8.993,0.0534,77.118,0.348,4,1,0,spotify:track:021txSheRym293iUdf6vPZ
+YOSEMITE,ASTROWORLD,Travis Scott,2018-08-03,150043,75,0.283,0.785,0.554,3.4e-06,0.116,-6.571,0.0409,128.047,0.144,4,0,1,spotify:track:7lAK3oHbfEnvUQWosrMMpR
+Ubu,Everything Is Forgotten,Methyl Ethel,2017-03-03,302786,0,0.00564,0.677,0.713,0.0604,0.112,-8.42,0.036,129.99,0.845,4,3,0,spotify:track:3FEBsU1XGqjwkDfMn8utnw
+Yes Indeed,Harder Than Ever,Lil Baby,2018-05-18,142273,82,0.0355,0.963,0.346,0.0,0.108,-9.309,0.53,119.957,0.562,4,5,0,spotify:track:6vN77lE9LK6HP2DewaN6HZ
+Tous les garçons et les filles - Remastered,Quelle merveille! (Remastered),Françoise Hardy,2017-08-13,188116,30,0.8,0.693,0.422,0.106,0.2,-10.704,0.0293,106.34,0.85,3,9,1,spotify:track:2xAqh4qe75tZtF2Qcj5D1R
+In the Wind,Lonesome Dreams,Lord Huron,2012-10-08,299360,44,0.742,0.534,0.483,0.0826,0.102,-9.68,0.0306,120.059,0.189,4,7,1,spotify:track:6wRB2X3BznEptcjzTDk6Za
+Devil Eyes,Providence,Hippie Sabotage,2016-02-05,131271,78,0.702,0.391,0.396,0.405,0.315,-8.621,0.189,99.112,0.199,5,1,0,spotify:track:7MiZjKawmXTsTNePyTfPyL
+I Think I'm In Love,My Garden,Kat Dahlia,2015-01-09,202666,71,0.137,0.632,0.638,0.0,0.125,-6.731,0.0505,121.868,0.574,3,7,1,spotify:track:3U1TuSqHIubBA10cVP7Sk6
+Where's My Love,In My Body,SYML,2018-01-12,202106,0,0.857,0.596,0.346,0.0189,0.123,-11.024,0.025,103.982,0.429,4,0,0,spotify:track:2Iebju6qYjWBY4udP0QayN
+Zusammen feat. Clueso,Zusammen feat. Clueso,Die Fantastischen Vier,2018-03-23,224893,46,0.0212,0.7,0.694,0.0,0.145,-6.162,0.0429,125.049,0.639,4,6,0,spotify:track:2qlTyN8Ou086f0HTtZtGoA
+Nervensäge,Die bekannteste unbekannte Band der Welt,SDP,2012-10-19,227732,39,0.271,0.854,0.792,0.0,0.89,-5.356,0.0685,123.065,0.972,4,1,0,spotify:track:4UQHeuN5RB9NtcQJJZ1UzV
+Rearview Town,Rearview Town,Jason Aldean,2018-03-16,184173,54,0.023,0.526,0.85,0.0,0.0948,-4.47,0.0313,141.973,0.338,4,10,0,spotify:track:3yHTTHbT058Ow0favhZO38
+Not Me (feat. Two Feet),Not Me (feat. Two Feet),MELVV,2016-12-30,181343,39,0.574,0.794,0.531,0.0273,0.116,-8.166,0.0529,133.968,0.671,4,0,1,spotify:track:5Fm0370X5xpSsDy2AL0Zra
+Agnes,How To Be A Human Being,Glass Animals,2016-08-26,271672,58,0.0162,0.55,0.518,0.0286,0.114,-8.949,0.0246,165.033,0.233,4,1,0,spotify:track:6prvUr8l3t7x5GY7heQb5w
+Where This Flower Blooms (feat. Frank Ocean),Flower Boy,"Tyler, The Creator",2017-07-21,194933,71,0.71,0.686,0.429,3.41e-06,0.166,-10.402,0.15,130.09,0.27,4,8,0,spotify:track:6KuXb26rHuRy3ZDse1VRmx
+Top of the World,Top of the World,Kimbra,2017-11-10,205520,0,0.11,0.62,0.762,0.0626,0.188,-6.854,0.0507,150.039,0.304,4,9,1,spotify:track:1yjlYqm9a7hRFWr8URAa2l
+Millidelphia (feat. Swizz Beatz),Legends of the Summer,Meek Mill,2018-07-06,215838,57,0.0854,0.851,0.702,0.0,0.374,-4.172,0.268,126.94,0.179,4,1,1,spotify:track:1dQ84P0W0lOckT02lPEhhP
+Kreis (feat. Bausa),Gute Nacht,Kontra K,2017-04-28,245013,37,0.095,0.711,0.76,0.0,0.202,-5.275,0.0487,135.934,0.624,4,9,0,spotify:track:2yJXqBEeO6n6PFV2vb80OA
+Über alle Berge,HRNSHN,257ers,2012-09-07,231773,0,0.0711,0.752,0.715,0.0,0.0949,-4.535,0.0488,108.973,0.889,4,8,1,spotify:track:0HdFlg7A9Uj2ljex5pGIFD
+Toluca Lake,Toluca Lake,Tep No,2017-10-27,224887,32,0.359,0.752,0.692,0.0343,0.103,-6.436,0.0242,114.987,0.743,4,11,0,spotify:track:5ZJrnxlVNseqSqR9QHQLbF
+"Can You Feel the Love Tonight - From ""The Lion King"" / Soundtrack Version",The Lion King,Various Artists,1994-01-01,177786,62,0.787,0.306,0.132,0.0,0.57,-19.31,0.0538,78.46,0.473,4,5,1,spotify:track:5E8yddtSG3sH4hw2SfwcgW
+Tanz aus der Reihe!,Bunte Rapublik Deutschpunk (Premium Edition),SDP,2014-01-10,223506,62,0.174,0.716,0.821,0.0,0.0731,-4.497,0.235,92.002,0.723,4,11,1,spotify:track:3DB60PbfXFbnKbL8h9Ihrp
+The Man Who Lives Forever,Lonesome Dreams,Lord Huron,2012-10-09,318813,38,0.484,0.627,0.72,0.00563,0.0946,-8.663,0.0271,125.025,0.675,4,4,1,spotify:track:2XD86GV0rqWAMhH6WRO6lS
+Better Now,beerbongs & bentleys,Post Malone,2018-04-27,231266,82,0.331,0.68,0.578,0.0,0.135,-5.804,0.04,145.038,0.341,4,10,1,spotify:track:7dt6x5M1jzdTEt8oCbisTK
+Rost,Kompass ohne Norden (Premium Edition),Prinz Pi,2013-04-29,294200,26,0.286,0.714,0.635,0.0,0.369,-6.558,0.0791,120.781,0.5,4,5,0,spotify:track:2iJe09tMlUZWkNZ9qHoQ0e
+GUMMY,SATURATION II,BROCKHAMPTON,2017-08-25,261000,57,0.198,0.687,0.672,0.0,0.175,-5.975,0.0573,80.035,0.792,4,0,0,spotify:track:42tBlHWL3VfDkUM2iWcc5p
+Marry Me,Life Changes,Thomas Rhett,2017-09-08,205453,71,0.0977,0.333,0.412,0.0,0.113,-8.633,0.029,85.028,0.474,4,3,1,spotify:track:0OWZFobGSIW9GrSlQ9C5pc
+King of the Road,(Remember Me) I'm the One That Loves You,Dean Martin,1965,142893,53,0.748,0.602,0.118,0.0,0.11,-14.978,0.0426,111.412,0.598,4,0,1,spotify:track:1swJ3f1M4HL4qLOp2phhcq
+The Other Side Of Paradise,How To Be A Human Being,Glass Animals,2016-08-26,320654,73,0.349,0.689,0.338,5.7e-05,0.0649,-7.634,0.0629,128.012,0.568,4,11,0,spotify:track:0rRjGruFonCGOt0S5zAJNQ
+Free Mind,Flow State,Tash Sultana,2018-08-31,205612,40,0.499,0.617,0.678,4.1e-05,0.305,-7.967,0.0939,75.365,0.546,4,8,0,spotify:track:1C4GpCE2xJkS8LziI6fYCq
+You Want It Darker,You Want It Darker,Leonard Cohen,2016-10-21,284373,61,0.613,0.674,0.327,0.199,0.0756,-16.986,0.0574,108.995,0.494,4,4,0,spotify:track:5zb7npjQqoJ7Kcpq4yD9qn
+Oceans Away,GALLERY,A R I Z O N A,2017-05-19,194013,61,0.13,0.617,0.642,0.157,0.0929,-8.624,0.0334,105.885,0.221,4,8,1,spotify:track:6A8dnC0xkiuWN4BshmTB2I
+Ne Leiche,Kontrastprogramm,SDP,2010-12-10,309237,59,0.393,0.846,0.798,0.0,0.0833,-4.396,0.0803,139.985,0.961,4,4,0,spotify:track:2QQQzfLXQWZBYAEr550dFA
+Love Lies (with Normani),Love Lies (with Normani),Khalid,2018-02-14,201707,74,0.0956,0.708,0.648,0.0,0.134,-5.626,0.0449,143.955,0.338,4,6,1,spotify:track:45Egmo7icyopuzJN0oMEdk
+BRILLI,XENON,METRICKZ,2017-08-25,185160,0,0.025,0.741,0.761,0.0,0.276,-6.575,0.253,89.968,0.577,4,4,0,spotify:track:5OEuRZL2N8vV6cDKVdggmd
+STOOPID,STOOPID,6ix9ine,2018-10-05,152000,0,0.13,0.733,0.63,0.0,0.162,-4.296,0.395,149.989,0.832,4,11,1,spotify:track:1jQvUmf16VE9WQCPuK2e8K
+Happy Man,Happy Man,Jungle,2018-05-08,190318,0,0.161,0.593,0.563,1.66e-05,0.0675,-6.409,0.0326,108.014,0.141,4,9,0,spotify:track:11xRCe6bPQ9fRhz70dqF9N
+Born Ready,Born Ready,Zayde Wølf,2016-10-07,229583,0,0.0813,0.432,0.866,0.0,0.115,-4.466,0.0657,68.039,0.353,4,2,0,spotify:track:3IVPEWo3ocvmYHTkieGCIz
+NFWMB,Nina Cried Power - EP,Hozier,2018-09-06,259253,56,0.895,0.379,0.373,0.0718,0.115,-12.176,0.0309,176.002,0.352,1,3,0,spotify:track:2iQYqdalv245vrCEM4W9N9
+MDMA,MDMA,Fruchtmax,2017-08-18,206293,46,0.286,0.777,0.562,0.0,0.0496,-6.201,0.0601,134.969,0.543,4,7,1,spotify:track:2CZs32ECHnt9VVNccl3Z7P
+Settle,Settle,Haulm,2017-11-08,270187,20,0.199,0.706,0.562,0.000828,0.288,-8.028,0.0509,80.004,0.211,4,1,0,spotify:track:3DYHw71c02tmG0v3nS74zx
+Self Control,Blonde,Frank Ocean,2016-08-20,249667,76,0.768,0.581,0.21,0.0,0.369,-10.426,0.0321,80.099,0.452,4,8,1,spotify:track:5GUYJTQap5F3RDQiCOJhrS
+Golden,"After Hours, Close To Dawn",Kingswood,2017-03-03,202000,41,0.526,0.736,0.494,0.00329,0.158,-8.658,0.0426,80.005,0.451,3,9,0,spotify:track:1a4bPApzfwfUAWB0lzkoLI
+Wasserschi Fahr'n,Die Rache des kleinen Mannes,SDP,2008-07-25,195970,28,0.538,0.875,0.5,0.0,0.207,-8.399,0.149,116.37,0.89,4,3,1,spotify:track:6jkVT6lS1fcIDEt0BSHzke
+Love Like Ghosts,Strange Trails,Lord Huron,2015-04-07,224061,58,0.77,0.47,0.548,0.0014,0.123,-7.227,0.0271,137.084,0.186,4,9,1,spotify:track:4UGoW08gaqIEWNTam1UNen
+Bébé comme la vie - Remasterisé en 2004,"Paris, France (Remasterisé en 2004)",France Gall,1980,197693,26,0.686,0.628,0.591,1.67e-06,0.308,-8.042,0.0318,121.922,0.488,4,0,1,spotify:track:4eHa6ijfcdW8bMqOB63KNU
+"1,40m",Im Westen nix Neues,Prinz Pi,2016-02-05,259109,52,0.0328,0.7,0.581,5.88e-06,0.11,-6.226,0.0922,80.026,0.444,4,10,0,spotify:track:1kt88GVueID2jSrXgsfEAT
+15th and the 1st (feat. YG Hootie),Ferrari Boyz (Deluxe),Gucci Mane,2011-08-09,233386,48,0.0427,0.837,0.656,0.0,0.115,-4.32,0.322,140.113,0.401,4,11,1,spotify:track:7dbJh6sbJqgaxI3Bdax4qu
+South London Forever,High As Hope,Florence + The Machine,2018-06-29,262680,54,0.613,0.676,0.577,0.0013,0.195,-7.82,0.0274,107.0,0.49,4,9,0,spotify:track:3MZ7TxuXNnwYXm2KZGap5g
+PICK IT UP (feat. A$AP Rocky),Pick It Up (feat. A$AP Rocky),Famous Dex,2017-10-20,191251,65,0.0149,0.921,0.467,0.000238,0.334,-8.443,0.119,135.995,0.287,4,1,1,spotify:track:3ncgNpxLoBQ65ABk4djDyd
+Let It Eat (feat. Ugly God),Bawskee,Comethazine,2018-08-24,87313,0,0.00754,0.944,0.752,0.0107,0.141,-2.625,0.135,134.039,0.489,4,11,0,spotify:track:63KKvdfkStMHQM4Ufzx2KB
+JELLO,SATURATION II,BROCKHAMPTON,2017-08-25,240000,48,0.618,0.92,0.569,7.28e-06,0.206,-6.628,0.374,139.953,0.641,4,7,0,spotify:track:1ZuQVisBNDRm51QIN9MajR
+On the Ball,On the Ball,Bryce Vine,2018-06-22,190703,47,0.125,0.674,0.74,1.12e-05,0.192,-5.646,0.038,145.959,0.531,4,2,1,spotify:track:03F0kSuBhDgD2zWlAwkG8x
+Mystik,Mystik,Tash Sultana,2017-10-06,251383,45,0.233,0.513,0.756,0.000413,0.119,-6.5,0.0475,132.576,0.375,4,0,1,spotify:track:5BLRxxzmsarOfxmEjyLCL3
+Mehr als ein Job,Gute Nacht,Kontra K,2017-04-28,190529,53,0.115,0.542,0.819,0.0,0.113,-7.683,0.329,191.898,0.464,4,1,0,spotify:track:6hyQOWD7kUVEJTjIHtJXdM
+Lost in Time and Space,Vide Noir,Lord Huron,2018-04-20,284706,51,0.697,0.238,0.606,0.813,0.264,-6.419,0.0364,122.796,0.0771,4,4,1,spotify:track:6BqmgqzgKNxPszu1I6gOpn
+Sold Out Dates (feat. Lil Baby),Sold Out Dates (feat. Lil Baby),Gunna,2018-04-16,166297,0,0.433,0.824,0.554,0.0,0.124,-7.118,0.115,127.003,0.316,4,4,0,spotify:track:72LlwJM24dWKpFLVB3PWWQ
+SICKO MODE,ASTROWORLD,Travis Scott,2018-08-03,312820,83,0.00513,0.834,0.73,0.0,0.124,-3.714,0.222,155.008,0.446,4,8,1,spotify:track:2xLMifQCjDGFmkHkpNLD9h
+Einzelkind,Kontrastprogramm,SDP,2010-12-10,200724,27,0.414,0.799,0.509,0.0,0.108,-4.987,0.0829,122.036,0.7,4,1,0,spotify:track:5DcCioq2SYkDSRFitGhCX8
+World Gone Mad,World Gone Mad (From Bright: The Album),Bastille,2017-11-09,195700,55,0.283,0.505,0.68,0.0,0.175,-3.423,0.0336,139.843,0.362,4,6,0,spotify:track:1ZyQGXH9dZ4AecevHhKUxi
+100 Years,High As Hope,Florence + The Machine,2018-06-29,298360,48,0.151,0.661,0.762,6.87e-06,0.0814,-6.753,0.0635,100.021,0.399,4,0,1,spotify:track:4MuoE4t1lp2Nkg7b2218Dr
+The Story Never Ends,The Story Never Ends,Lauv,2016-10-20,229029,0,0.911,0.614,0.126,0.0,0.148,-9.403,0.0376,119.945,0.351,4,9,1,spotify:track:5cDNs4utoHt0WNRZuziews
+Always Remember Us This Way,A Star Is Born Soundtrack,Lady Gaga,2018-10-05,210200,71,0.299,0.553,0.502,0.0,0.764,-5.972,0.0409,129.976,0.296,4,0,1,spotify:track:74iZuPGwyL33VlTr6jTnab
+Star Of The Show,Tangled Up (Deluxe),Thomas Rhett,2016-10-28,181200,53,0.142,0.695,0.641,0.0,0.131,-5.807,0.0261,101.974,0.664,4,7,1,spotify:track:63OQWdXMq0Pe6pRpWY5gO0
+Reprieve,Vallis Alps,Vallis Alps,2015-01-06,254665,38,0.747,0.708,0.276,0.254,0.103,-11.509,0.0309,139.994,0.381,4,0,0,spotify:track:0nJxpokJ3D8OOZW4zxVbcI
+Psycho (feat. Ty Dolla $ign),Psycho (feat. Ty Dolla $ign),Post Malone,2018-02-23,220880,0,0.566,0.74,0.558,0.0,0.112,-8.115,0.102,140.057,0.421,4,8,1,spotify:track:65NwOZqoXny4JxqAPlfxRF
+Amarillo By Morning,Best Of (Deluxe Edition),George Strait,2011-01-01,172000,50,0.303,0.601,0.534,4.5e-05,0.413,-9.06,0.0309,120.872,0.552,4,9,1,spotify:track:3Ig9gmkoKZMAGgCXu1bwdH
+Drew Barrymore,Drew Barrymore,Bryce Vine,2017-12-01,191146,64,0.46,0.758,0.574,0.00272,0.102,-6.889,0.0572,151.985,0.261,4,11,0,spotify:track:0OgGn1ofaj55l2PcihQQGV
+What A Diff'rence A Day Made,Verve Jazz Masters 19: Dinah Washington,Dinah Washington,1993-09-20,151293,0,0.945,0.308,0.195,9.55e-05,0.119,-13.039,0.0334,160.61,0.258,4,0,1,spotify:track:0SmF5Ra14lagx2pIKLiuq7
+So genial,Die Rache des kleinen Mannes,SDP,2008-07-25,213133,20,0.466,0.775,0.537,0.0,0.17,-7.974,0.123,125.073,0.657,4,5,0,spotify:track:439PqP8n1pSUpUBVvPL9ZM
