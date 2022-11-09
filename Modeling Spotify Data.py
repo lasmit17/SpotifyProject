@@ -8,6 +8,10 @@ from sklearn.pipeline import Pipeline
 import matplotlib.pyplot as plt
 import seaborn as sns
 from sklearn import metrics
+from sklearn.model_selection import KFold
+from sklearn.model_selection import cross_val_score
+
+
 
 luke_df_2016 = pd.read_csv(f'C:/Users/lasmi/PyCharmProjects/SpotifyProject/Data/Luke_2016_Top_Songs.csv')
 luke_df_2017 = pd.read_csv(f'C:/Users/lasmi/PyCharmProjects/SpotifyProject/Data/Luke_2017_Top_Songs.csv')
@@ -73,23 +77,6 @@ y = all_df['users_name']
 
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=123)
 
-
-#Below is a fitted logistic regression model
-# Set model
-model = LogisticRegression(multi_class='multinomial', solver='lbfgs')
-
-# Fitting the model to X and y
-model.fit(X, y)
-
-# Predicting y
-y_pred = model.predict(X)
-
-# Evaluating the accuracy
-acc = accuracy_score(y, y_pred)
-
-#Printing the results
-print('Accuracy: %.2f' % acc)
-
 #multiclass is exclusive and multilabel is not
 
 #Setting up a pipeline that scales and then utilizes multinomical logistic regression
@@ -99,10 +86,31 @@ pipe = Pipeline([('scaler', StandardScaler()),     # Step 1
 pipe.fit(X_train, y_train)
 pred = pipe.predict(X_test)
 
+print("Accuracy:",metrics.accuracy_score(y_test, pred))
+
+
+#Preforming cross-validation
+
+cv = KFold(n_splits=10, random_state=123, shuffle=True)
+
+scores = cross_val_score(pipe, X_train, y_train, scoring='accuracy', cv=cv, n_jobs=-1)
+scores
+
+#More metrics
+
+accuracy = accuracy_score(y_test, pred)
+print(f"Accuracy: {accuracy:.2f}")
+
+from sklearn.metrics import precision_score, recall_score
+
+from sklearn.metrics import classification_report
+print(classification_report(y_test, pred))
 
 #Setting up a confusion 3x3 confusion matrix
 cnf_matrix = metrics.confusion_matrix(y_test, pred)
-cnf_matrix
+
+from sklearn.metrics import confusion_matrix, roc_curve, roc_auc_score, precision_recall_curve, auc, average_precision_score
+
 
 class_names=[0,1] # name  of classes
 fig, ax = plt.subplots()
@@ -118,4 +126,3 @@ plt.title('Confusion matrix', y=1.1)
 plt.ylabel('Actual label')
 plt.xlabel('Predicted label')
 
-print("Accuracy:",metrics.accuracy_score(y_test, pred))
