@@ -1,0 +1,101 @@
+name,album,artist,release_date,length,popularity,acousticness,danceability,energy,instrumentalness,liveness,loudness,speechiness,tempo,valence,time_signature,key,mode,uri,release_year
+Ramona,Reverse Shark Attack,Ty Segall,2009,82706,16,0.168,0.301,0.881,0.802,0.302,-2.049,0.0561,108.185,0.136,4,9,1,spotify:track:3argt9XMwJX9RJgQ1zfusL,2009
+Exogenesis: Symphony Pt. 1 (Overture),The Resistance,Muse,2009-09-10,258440,47,0.00689,0.262,0.474,0.84,0.169,-9.079,0.0359,120.326,0.047,3,5,1,spotify:track:6zkhhG8iQ8waiwGkQuhoE1,2009
+Satin PSICODELIC,Satin Psicodelic,Sunni Colón,2018-08-29,304481,40,0.00798,0.626,0.776,0.0343,0.125,-10.444,0.033,103.047,0.564,4,5,0,spotify:track:6ZaWiYupgo7KAl7uZTQklx,2018
+What's Your Voodoo?,What's Your Voodoo?,Ghia,1991-01-01,253940,15,0.823,0.789,0.565,0.437,0.0656,-11.106,0.0418,151.445,0.676,4,9,0,spotify:track:72OSFzfEnclbsL3ItKETuX,1991
+Plug in Baby,Origin of Symmetry,Muse,2001,218000,52,6.94e-06,0.408,0.965,0.000402,0.11,-4.232,0.05,136.018,0.349,4,2,1,spotify:track:429MqIq5nGH32feyRZHunv,2001
+Since You Asked Kindly,III,BADBADNOTGOOD,2014-01-01,281480,0,0.0305,0.485,0.81,0.849,0.0962,-8.531,0.039,130.581,0.226,4,4,0,spotify:track:6f9rhCHzMHhqGULOcgYENy,2014
+Sister and Suns,Dynasty House,Hooded Fang,2017-05-19,229266,6,0.172,0.552,0.952,0.701,0.203,-5.612,0.0494,98.432,0.61,4,4,0,spotify:track:3PPpW51jy5kjh5XKwWHzVF,2017
+Only If,Apollo XXI,Steve Lacy,2019-05-24,100562,56,0.105,0.811,0.401,0.0,0.0785,-4.909,0.0409,86.023,0.815,4,4,1,spotify:track:0AzacpqYhvdOSbFvJ6eCKr,2019
+Megalomania,Origin of Symmetry,Muse,2001,279906,32,0.0326,0.189,0.304,0.824,0.315,-11.897,0.032,145.76,0.0899,4,4,0,spotify:track:2Ql35D6jSAcDyLnQGsD6ie,2001
+It's a Rainy Day on the Cosmic Shore,~~~,Ana Roxanne,2019-03-15,320093,0,0.87,0.105,0.736,0.971,0.141,-21.123,0.261,166.857,0.0694,4,4,1,spotify:track:4bRd0QUtM20qMLVIWTW5gZ,2019
+Wasteland,Gravez,Hooded Fang,2013-05-28,176717,24,0.275,0.477,0.922,0.587,0.323,-4.498,0.0536,94.502,0.66,4,9,1,spotify:track:38ujmAPK6twhEnjgEQRGwG,2013
+Actriz,Double invitation,Femminielli,2012-11-12,422570,0,0.244,0.2,0.71,0.881,0.11,-4.238,0.0338,139.901,0.0383,4,2,1,spotify:track:6Sy6kKN5NeHZx71UkWeY4x,2012
+Hyper Chondriac Music,Hullabaloo Soundtrack (Eastwest Release),Muse,2002,329866,35,0.0142,0.312,0.48,0.424,0.188,-8.744,0.0363,135.84,0.122,4,2,0,spotify:track:45VjXNcZsV6Kh28MIracsd,2002
+Tears,Careful,Boy Harsher,2019-02-01,297456,45,0.16,0.744,0.944,0.785,0.053,-6.067,0.0367,130.012,0.937,4,8,1,spotify:track:4M66Umj8LV4XC9z4O3D5sn,2019
+Ballad 5,Beacon,Tess Roby,2018-04-20,221178,19,0.849,0.807,0.437,0.0401,0.0738,-9.911,0.0372,121.678,0.516,4,7,1,spotify:track:7KjGm8NpjORONeyFqX2AAR,2018
+Bodysnatchers,In Rainbows,Radiohead,2007-12-28,242293,0,0.00455,0.343,0.977,0.0197,0.0948,-4.993,0.0579,166.664,0.727,4,2,1,spotify:track:4m0Vgr48VFaMYw0Sp1ozJu,2007
+A Brand New City,"Holiday in Panikstrasse, Part 1",Cosmo Vitelli,2019-05-31,270000,2,0.00353,0.747,0.46,0.793,0.0889,-11.293,0.0857,100.008,0.34,4,11,1,spotify:track:1QrikhIccabJulrOZAObMq,2019
+Turn On the Radio - Original Mix,Nina Kraviz,Nina Kraviz,2012-02-27,214920,21,0.0727,0.846,0.439,0.15,0.0879,-14.887,0.0744,99.202,0.786,3,6,0,spotify:track:1SXRle2gIrEoyVlNeeFqnu,2012
+La Cabellera de Berenice,Size,Size,2018-11-02,340473,26,0.000516,0.433,0.751,0.127,0.25,-6.568,0.0519,120.581,0.283,4,0,0,spotify:track:3ZziAteruFwMe0Kpi3JYbm,2018
+Jigsaw Falling Into Place,In Rainbows,Radiohead,2007-12-28,248893,0,0.105,0.461,0.833,0.00419,0.0741,-6.082,0.0481,165.635,0.808,4,11,0,spotify:track:15ea10YpJIl3mJq75yzqsD,2007
+New York City,NOW,Shari Vari,2019-09-13,229788,3,0.00122,0.546,0.572,0.714,0.158,-11.368,0.0338,102.01,0.18,4,9,1,spotify:track:1XWuTMXaXQtiearWy9V07q,2019
+My Apartment,My Apartment,Zwanie Jonson,2020-04-30,173730,0,0.486,0.696,0.442,0.389,0.0952,-8.153,0.073,81.001,0.749,4,0,1,spotify:track:08IkYPqpLamlK6a3jHyPOu,2020
+Wat Voel Je Nou,Duistre Kamers,De Ambassade,2019-09-09,196845,39,0.604,0.697,0.585,0.764,0.0763,-8.896,0.0368,136.99,0.369,4,0,1,spotify:track:2yRQzR66jyO3TscdeowP5E,2019
+Beograd Spava,"O, Je!",U skripcu,1983-12-14,358106,10,0.774,0.161,0.26,0.899,0.0922,-12.807,0.0352,79.9,0.0666,4,2,0,spotify:track:4QupIZkjOX7d60bRGwpNK6,1983
+Now - Fantastic Twins Remix,Now Remixes,Shari Vari,2020-05-22,425769,1,0.111,0.636,0.468,0.766,0.096,-16.354,0.0331,104.006,0.324,4,10,0,spotify:track:1sqXAOigReuKurFi5MaN4R,2020
+Voetbalknieen - Front De Cadeaux Remix,Metempsycho EP,Mugwump,2016-11-04,491250,0,0.00676,0.841,0.535,0.854,0.115,-11.462,0.144,95.987,0.492,4,1,1,spotify:track:03tiQTw4uQV7DZjLtVAeQJ,2016
+Nova Zen,Worst Greatest Hits Vol. 1,Various Artists,2020-02-06,385555,5,0.0357,0.713,0.68,0.714,0.109,-10.47,0.036,108.009,0.0386,4,2,1,spotify:track:3G5yWWStnfDF10GwYK1Yqh,2020
+15 Step,In Rainbows,Radiohead,2007-12-28,237293,0,0.0489,0.6,0.853,0.346,0.0934,-7.584,0.0423,94.457,0.847,4,1,1,spotify:track:6dsq7Nt5mIFzvm5kIYNORy,2007
+Fragments of Reality (feat. Fantastic Twins),"Holiday in Panikstrasse, Part 2",Cosmo Vitelli,2019-12-13,278250,1,0.166,0.547,0.599,0.918,0.12,-10.602,0.029,100.032,0.0777,4,8,1,spotify:track:6NsuaPeG4mc9dGYgGByLAS,2019
+I Cry (Night after Night),On the Nile,The Egyptian Lover,1984-01-01,304213,36,0.182,0.713,0.46,0.897,0.094,-10.346,0.0426,135.482,0.483,4,2,1,spotify:track:6W03BOggURVJECgPfpz7Gh,1984
+The Fear In My Heart,The Ship ReBuilt 2015,Luc Van Acker,2015-08-28,258106,1,0.0398,0.618,0.606,3.02e-06,0.137,-9.665,0.0535,169.655,0.833,4,7,1,spotify:track:6HtL8OR55KhMDvtlihoLGD,2015
+Nuclear Sí,Opera Científica,Aviador Dro,1999-01-01,180733,26,0.00133,0.736,0.436,0.00011,0.0638,-11.008,0.0544,155.155,0.919,4,9,0,spotify:track:1LCsBA7FyU8gfkHvRg9VoS,1999
+"12.38 (feat. 21 Savage, Ink & Kadhja Bonet)",3.15.20,Childish Gambino,2020-03-22,392186,60,0.197,0.691,0.524,4.29e-05,0.488,-9.718,0.16,164.047,0.41,4,5,1,spotify:track:011ZwIM48eD8ee2UBpG8nK,2020
+I'm So Tired,Instrument Soundtrack,Fugazi,1999,118933,4,0.89,0.303,0.129,0.00776,0.123,-15.069,0.0301,84.167,0.155,4,6,1,spotify:track:5IafdoRLyaGPeeA6f8ysIe,1999
+When I Was Done Dying,Gliss Riffer,Dan Deacon,2015-02-23,258959,50,0.0449,0.426,0.815,0.0307,0.104,-7.566,0.0666,195.123,0.297,3,6,1,spotify:track:69L4d5HlE0YOCwWFYVFGoW,2015
+Walking in the Night - Original Mix,Nina Kraviz,Nina Kraviz,2012-02-27,255226,27,0.971,0.6,0.217,0.51,0.1,-20.608,0.0928,111.502,0.202,4,0,1,spotify:track:2DVxxnJXHhRZck3GH9wZM6,2012
+L'Amour Pour Bouclier,Pour L'Amour,Elaine Kibaro,2019-07-30,258001,9,0.382,0.749,0.426,0.463,0.166,-12.845,0.0365,120.472,0.781,4,9,0,spotify:track:2JvDlmRtYS9zzCJAFKJ9QO,2019
+Immortality,~~~,Ana Roxanne,2019-03-15,244000,0,0.97,0.166,0.0606,0.949,0.121,-21.935,0.0373,110.703,0.0465,4,0,0,spotify:track:75mMC2cnD58FHOrMGmxf6i,2019
+Nene of the Light,Dynasty House,Hooded Fang,2017-05-19,384902,6,0.196,0.529,0.792,0.499,0.256,-5.883,0.0316,114.017,0.308,4,11,1,spotify:track:0OZQ1rBMQmixMWDWtZUgym,2017
+Mike D's Coke,Melted,Ty Segall,2010-05-25,90200,24,8.89e-05,0.313,0.8,0.711,0.142,-7.856,0.063,118.823,0.359,3,1,0,spotify:track:1JlgC03esFgTVJ0FUw6nVI,2010
+Felicita,Decadence,Deux,2010-06-01,182500,24,0.527,0.691,0.503,0.47,0.122,-8.557,0.0436,123.99,0.437,4,9,0,spotify:track:67RU90DYRSNXeI0hLUWiOy,2010
+El Ultimo Tango para Mi,Double invitation,Femminielli,2012-11-12,394096,0,0.179,0.392,0.626,0.465,0.0874,-6.467,0.0326,179.982,0.288,4,2,1,spotify:track:1E1jR8xEBYXa5ObyOhg9Fp,2012
+Camino Del Sol (Todd Terje Remix),Versions Speciales - Camino del Sol,Antena,2007-06-15,404200,33,0.33,0.699,0.853,0.723,0.0708,-7.014,0.0442,100.004,0.507,4,11,1,spotify:track:6Lim5LfM5LqHt5LfOTUkTG,2007
+Margins,Retrospektiv,Thomas Brinkmann,2017-10-27,340586,10,0.118,0.869,0.423,0.618,0.0728,-13.135,0.3,163.991,0.793,4,5,0,spotify:track:1I3XBZ2G0ZfFVc1pVpdBR5,2017
+Rolling Upon My Day,Dome 1,Dome,2019-03-29,226973,10,0.938,0.366,0.538,0.821,0.112,-15.213,0.0464,205.2,0.539,4,9,1,spotify:track:79cEvgXlvUt9hBLl7VoYaJ,2019
+Slowness,~~~,Ana Roxanne,2019-03-15,260620,0,0.91,0.268,0.301,0.882,0.325,-18.905,0.0433,172.255,0.184,3,9,1,spotify:track:3ybKSVKVk8FhMxTNg9GwO5,2019
+Square 1,Berlin Calling (The Soundtrack by Paul Kalkbrenner),Paul Kalkbrenner,2013-07-12,396431,48,0.0472,0.78,0.516,0.916,0.608,-13.058,0.0434,122.004,0.337,3,10,0,spotify:track:4YbpfJxlFMdRv4KH6DRhlX,2013
+Yaranabe - Full Circle Goa Way Remix,Saft 2,Die Orangen,2019-03-08,540642,12,0.0917,0.725,0.928,0.865,0.414,-11.083,0.0588,111.988,0.149,4,7,1,spotify:track:3r4uFBN5TqObFBEnO3JXzk,2019
+Devuélveme a mi chica,Hombres G (Edición 30 Aniversario),Hombres G,1985,194866,77,0.0031,0.603,0.843,0.0337,0.445,-7.597,0.0557,172.676,0.503,4,9,0,spotify:track:1Wrzhfa5bNlqvsnCztz190,1985
+Exit Divine,White Rats II,Broken English Club,2019-09-13,80304,0,0.474,0.283,0.58,5.79e-05,0.309,-10.433,0.0385,61.205,0.637,3,7,1,spotify:track:6ZWJMZYzxLB008pipy4WbL,2019
+Stay,Stay,The Blessed Madonna,2014-10-30,504267,29,0.0814,0.702,0.744,0.00112,0.127,-7.626,0.0305,114.998,0.0928,4,1,1,spotify:track:3nIjf02LV4Rxcy0P4PFqDT,2014
+Age of Consent - 2015 Remaster,Power Corruption and Lies,New Order,1983-05-02,315333,65,0.00101,0.372,0.91,0.0944,0.13,-5.559,0.0392,161.964,0.756,4,2,1,spotify:track:2EEinN4Zk8MUv4OQuLsTBj,1983
+Paramaribo Prince,Dynasty House,Hooded Fang,2017-05-19,225485,4,0.0732,0.564,0.953,0.0145,0.973,-5.766,0.0485,101.037,0.848,4,11,1,spotify:track:3shoKDS3b5M5J2o9TUyHix,2017
+My Smile Is A Rifle,Niandra LaDes And Usually Just A T-Shirt,John Frusciante,1994,227733,40,0.807,0.466,0.209,0.853,0.109,-16.003,0.037,119.683,0.0382,3,9,0,spotify:track:3IfJJ9q7FBs3EfveyJ6HnW,1994
+Que Nadie Sepa Mi Sufrir,Sonoras Poderosas,Various Artists,2008-01-01,246320,40,0.288,0.67,0.776,0.000138,0.134,-6.22,0.0546,103.957,0.933,4,4,0,spotify:track:1BgEmUFCaCd7T146yi2k5M,2008
+Television Saved My Life,Artifact,Iron Curtain,2010-11-03,296000,3,0.056,0.799,0.648,0.727,0.114,-5.09,0.0297,93.807,0.552,3,11,0,spotify:track:05HOmco5eoSEhd3sbHPlhB,2010
+Mama Pearl,Dynasty House,Hooded Fang,2017-05-19,352622,2,0.808,0.439,0.925,0.464,0.149,-3.217,0.114,112.794,0.302,5,9,1,spotify:track:481V3w88OCDvk4bhDQN8xr,2017
+"Baby, You're A Rich Man - Remastered 2009",Magical Mystery Tour (Remastered),The Beatles,1967-11-27,181306,51,0.0119,0.619,0.625,1.05e-06,0.152,-9.635,0.036,96.751,0.467,4,7,1,spotify:track:0JBvtprXP2Z0LP3jmzA7Xp,1967
+Comet Face,Man Alive!,King Krule,2020-02-21,193906,0,0.605,0.589,0.85,0.214,0.0879,-7.907,0.25,140.153,0.292,4,0,1,spotify:track:1Dgas4lOoZgoxoj8dE4iQu,2020
+Let Me Do It,Signals in Snakes,Identified Patient,2019-06-03,400388,13,0.00131,0.634,0.79,0.765,0.0938,-5.097,0.0382,92.004,0.0384,4,4,0,spotify:track:3CI4DFeHYkX8dnXfhG3Wvx,2019
+Running Away Into You,Niandra LaDes And Usually Just A T-Shirt,John Frusciante,1994,130866,33,0.867,0.267,0.254,0.0337,0.104,-13.999,0.0398,119.953,0.212,1,11,0,spotify:track:0BCnNOixX8zSyWNo7I7onO,1994
+Tuna 3,Azul Bazzar,Tara in Tibet,2019-09-23,367815,0,0.124,0.469,0.981,0.178,0.088,-5.27,0.126,159.223,0.224,4,1,1,spotify:track:2MfqxgIfvicii6dvRk61Or,2019
+Ilé,Pili Pili,Jasper van't Hofs Pili Pili,1984-01-01,436360,5,0.238,0.788,0.699,0.0044,0.062,-13.549,0.0533,112.384,0.924,4,10,0,spotify:track:7tqAWAd0vEpaoxLHROfsJq,1984
+Sianne Don't Work in a Factory,Return of the Ranters,Normil Hawaiians,2015-10-23,348577,2,0.0406,0.453,0.736,0.475,0.503,-6.91,0.0649,109.533,0.42,4,7,0,spotify:track:30iy61WDCEkagE1tIabIGt,2015
+FEAR.,DAMN.,Kendrick Lamar,2017-04-14,460573,65,0.604,0.588,0.479,7.2e-06,0.527,-7.039,0.281,150.414,0.434,4,1,1,spotify:track:23luOrEVHMfoX0AhfbQuS6,2017
+I'm Every Sparkly Woman,~~~,Ana Roxanne,2019-03-15,143146,0,0.979,0.342,0.339,0.961,0.0853,-15.649,0.0403,109.088,0.119,4,8,1,spotify:track:3hBD6jPFwwrm7s5kGgouoe,2019
+Doñamelia,Dynasty House,Hooded Fang,2017-05-19,189729,3,0.433,0.496,0.886,0.0955,0.0687,-4.165,0.0352,98.52,0.374,4,7,1,spotify:track:4nsONF5u1O5Cr1QcL93JyS,2017
+Girlfriend,Melted,Ty Segall,2010-05-25,132760,40,0.000596,0.224,0.925,1.35e-06,0.0663,-1.71,0.0834,138.022,0.378,4,11,0,spotify:track:5vEE1d5gkv3pgfZyppLeX8,2010
+Eating Glue,Paranoid London,Paranoid London,2018-01-19,365680,36,0.000394,0.808,0.735,0.885,0.0938,-11.76,0.0501,124.995,0.543,4,9,0,spotify:track:1f6yIgCDhZeMtFDvOzQIVl,2018
+Beta Burner - A Sagittariun Re-Dream,Beta Burner,Desert Sound Colony,2019-03-22,386886,4,0.00105,0.802,0.86,0.916,0.0802,-13.003,0.0698,122.993,0.0887,4,2,1,spotify:track:3TQ1NdVEuQzPgY5iImEgpB,2019
+Plastic Love,Venus on Edge,Hooded Fang,2016-05-13,325106,8,0.0894,0.338,0.836,1.88e-05,0.349,-3.704,0.0389,92.203,0.654,4,0,1,spotify:track:0iFP5U58fBaayqlP2tSNeT,2016
+Air War,Crystal Castles,Crystal Castles,2008-03-18,252266,0,0.0482,0.769,0.806,0.0627,0.705,-3.833,0.0873,120.001,0.517,4,0,1,spotify:track:2XlX9lecuf3Y14fzLYOxmu,2008
+Southern Voice,Wolf Müller Meets The Nile Project,Wolf Müller,2019-04-05,449836,2,0.00243,0.733,0.849,0.592,0.0713,-13.673,0.0614,90.012,0.935,4,11,0,spotify:track:4SMkHJlbRTPBuar88uv36O,2019
+Cult Hero (Do You Wanna Touch Me) - Album Edit,PL,Paranoid London,2019-08-30,409440,11,0.0278,0.624,0.94,0.642,0.0846,-7.188,0.047,123.002,0.275,4,1,1,spotify:track:11WrbtKNKf292kcGBK7ZPp,2019
+Impressions,Venus on Edge,Hooded Fang,2016-05-13,229493,5,0.121,0.329,0.903,8.38e-05,0.281,-2.593,0.0607,91.268,0.229,4,7,1,spotify:track:73nKlPS0QdX4yxaeVCfOkH,2016
+Bob - Edu K Remix,Changez Tout: Samba pra Burro Dissecado,Otto,2000-01-01,297447,39,0.292,0.594,0.559,0.496,0.369,-11.296,0.0643,184.075,0.434,4,6,1,spotify:track:3tHEtiZzwgftuUoRb795Ey,2000
+Nightmare Song,Kyusa Embela,Ecko Bazz,2019-11-29,264000,0,0.00796,0.616,0.921,0.000326,0.249,-7.918,0.298,139.89,0.374,4,0,1,spotify:track:2cRwuFjeVqOhiV0DGh3jzp,2019
+Frontin' (feat. Jay-Z) - Club Mix,The Neptunes Present... Clones,The Neptunes,2003-08-19,236506,65,0.453,0.894,0.404,1.57e-06,0.0801,-5.913,0.13,102.009,0.759,4,9,0,spotify:track:0iFOG4Ki9aDmJUYUFHQlPG,2003
+So Long,1981 - 1984,Fall of Saigon,2011-02-04,143360,2,0.927,0.843,0.472,0.652,0.105,-7.289,0.0415,117.686,0.354,4,5,0,spotify:track:3QjTIGv29R6Zah9dUqH8Mu,2011
+ELEMENT.,DAMN.,Kendrick Lamar,2017-04-14,208733,71,0.204,0.748,0.705,0.0,0.246,-4.547,0.485,189.891,0.483,4,4,0,spotify:track:1EaKU4dMbesXXd3BrLCtYG,2017
+He just wanted to hang out with the Djs,"Holiday in Panikstrasse, Part 2",Cosmo Vitelli,2019-12-13,486000,0,0.000786,0.454,0.671,0.876,0.0974,-12.206,0.0451,190.61,0.13,4,10,0,spotify:track:1aoSxhECLhsTVmgpSs9JDU,2019
+Shake Your Flowers,Lost and Late...,Martin Dupont,2008-08-19,166586,4,0.00787,0.6,0.268,0.00326,0.0823,-16.681,0.0389,74.057,0.506,4,5,1,spotify:track:2iFDbZL5bLJ4VGL0SNRRVf,2008
+Death Is Forming,Blood Visions,Jay Reatard,2009,125760,24,0.0401,0.313,0.991,9.29e-05,0.538,0.781,0.138,104.027,0.181,4,11,0,spotify:track:5zSRaUFR1yTB60FRl2ll9n,2009
+FEEL.,DAMN.,Kendrick Lamar,2017-04-14,214826,66,0.137,0.746,0.798,0.0,0.139,-8.382,0.349,109.968,0.553,4,0,1,spotify:track:2LTlO3NuNVN70lp2ZbVswF,2017
+Lovin U (Ahh Shit),Paranoid London,Paranoid London,2018-01-19,447776,27,0.000149,0.799,0.531,0.588,0.298,-11.028,0.0527,125.003,0.252,4,7,0,spotify:track:5o5tSXg1OFvVsMjqOSEQxC,2018
+Other Ocean,The Halls of Wickwire,Cousins,2014-05-13,273817,0,7.25e-05,0.212,0.978,0.515,0.312,-5.113,0.125,141.285,0.549,4,8,1,spotify:track:4vvgPC9LwKi231hYdk3ErE,2014
+"Greed, Money, Useless Children",Blood Visions,Jay Reatard,2009,54293,24,0.0168,0.47,0.986,0.0,0.84,0.77,0.118,144.844,0.398,4,9,1,spotify:track:2vCdBPCwyoXrHG2Hjo1hbj,2009
+Midsection (feat. Pharrell Williams),BUBBA,KAYTRANADA,2019-12-13,289426,26,0.017,0.686,0.769,0.000831,0.374,-6.381,0.207,103.956,0.409,4,8,1,spotify:track:2iPcFRoOAQUnAWT6t3UfbV,2019
+Cult Hero (Do You Wanna Touch Me) - Slow,Cult Hero (Do You Wanna Touch Me) - Slow,Paranoid London,2019-08-23,452880,3,0.381,0.452,0.68,0.671,0.131,-9.653,0.0415,123.017,0.271,4,1,1,spotify:track:75mJqU9k6FXRhXgVXYZKQc,2019
+Assume Form,Assume Form,James Blake,2019-01-18,289600,36,0.886,0.413,0.349,0.000195,0.091,-10.361,0.0628,139.274,0.148,4,4,0,spotify:track:6cJrQc34txUzXd90xWEAOh,2019
+The Model,Chewing Hides the Sound,Snakefinger,1979,221373,28,0.261,0.681,0.54,0.000323,0.185,-8.441,0.0435,129.066,0.675,4,9,1,spotify:track:4YupSZ2rbEDIeePltNykhc,1979
+In My Room,In My Room,Frank Ocean,2019-11-02,133680,78,0.594,0.861,0.647,0.661,0.114,-7.425,0.0675,158.037,0.67,4,7,1,spotify:track:4S4Mfvv03M1cHgIOJcbUCL,2019
+Flesh,N / O / I / S / E,Ghostemane,2018-10-10,79270,67,0.0379,0.666,0.7,0.12,0.105,-5.497,0.283,145.046,0.294,4,0,1,spotify:track:1Ae2QJGUPtnCzdA4XYn1NF,2018
+LOVE. FEAT. ZACARI.,DAMN.,Kendrick Lamar,2017-04-14,213400,82,0.264,0.8,0.585,0.0,0.153,-7.343,0.0924,126.058,0.779,4,10,1,spotify:track:6PGoSes0D9eUDeeAafB2As,2017
+(Vi-Vi) Vicious Games - Album Edit,PL,Paranoid London,2019-08-30,441120,10,0.0442,0.628,0.919,0.872,0.0718,-8.264,0.0356,125.988,0.814,4,1,1,spotify:track:7wrpScPP1dSwVUKpai9wID,2019
+Dolijute - Manfredas Second Remix,Deaf Chonky,Deaf Chonky,2018-03-16,303718,0,0.165,0.797,0.514,0.0593,0.0791,-6.764,0.0274,93.998,0.498,4,0,0,spotify:track:0I4Z9FDPSi62NebvvumWcW,2018
+Track 1,Garzen Compilation 1,Various Artists,2020-07-10,245625,0,0.734,0.262,0.528,0.963,0.111,-10.698,0.0445,154.443,0.115,4,0,1,spotify:track:4u7YNGCmcSmkD3Jt01ZzoT,2020
+Day Dreaming,Day Dreaming (Afrodeutsche Remix),Marie Davidson,2019-01-29,252562,0,0.926,0.35,0.193,0.329,0.094,-16.293,0.0351,70.718,0.296,3,0,0,spotify:track:022vRJIEmCSlBgjty4AYiK,2019
+Get Got,The Money Store,Death Grips,2012-04-23,171866,58,0.00628,0.57,0.993,0.00796,0.0876,-3.757,0.337,87.0,0.405,4,7,1,spotify:track:781V2Y5LPtcpgONEOadadE,2012
+U Won't C Me,U Won't C Me EP,Mystic Bill,2015-11-27,472974,26,0.000292,0.744,0.827,0.894,0.0924,-9.103,0.0422,120.003,0.969,4,7,1,spotify:track:18XQ8eo6c4RJyuEBAg6Ru9,2015
