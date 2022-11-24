@@ -1,3 +1,4 @@
+#To install Python packages, go to File -> Settings -> Project -> Python Interpreter -> Then click the "plus" sign and choose which package you'd like to download
 import pandas as pd
 from sklearn.model_selection import train_test_split
 import numpy as np
@@ -13,21 +14,22 @@ from sklearn.model_selection import cross_val_score
 
 
 
-luke_df_2016 = pd.read_csv(f'C:/Users/lasmi/PyCharmProjects/SpotifyProject/Data/Luke_2016_Top_Songs.csv')
-luke_df_2017 = pd.read_csv(f'C:/Users/lasmi/PyCharmProjects/SpotifyProject/Data/Luke_2017_Top_Songs.csv')
-luke_df_2018 = pd.read_csv(f'C:/Users/lasmi/PyCharmProjects/SpotifyProject/Data/Luke_2018_Top_Songs.csv')
-luke_df_2019 = pd.read_csv(f'C:/Users/lasmi/PyCharmProjects/SpotifyProject/Data/Luke_2019_Top_Songs.csv')
-luke_df_2020 = pd.read_csv(f'C:/Users/lasmi/PyCharmProjects/SpotifyProject/Data/Luke_2020_Top_Songs.csv')
 
-jp_df_2017 = pd.read_csv(f'C:/Users/lasmi/PycharmProjects/SpotifyProject/Data/jp_2017_Top_Songs.csv')
-jp_df_2018 = pd.read_csv(f"C:/Users/lasmi/PycharmProjects/SpotifyProject/Data/jp_2018_Top_Songs.csv")
-jp_df_2019 = pd.read_csv(f"C:/Users/lasmi/PycharmProjects/SpotifyProject/Data/jp_2019_Top_Songs.csv")
-jp_df_2020 = pd.read_csv(f"C:/Users/lasmi/PycharmProjects/SpotifyProject/Data/jp_2020_Top_Songs.csv")
+luke_df_2016 = pd.read_csv(f'Data/Luke_2016_Top_Songs.csv')
+luke_df_2017 = pd.read_csv(f'Data/Luke_2017_Top_Songs.csv')
+luke_df_2018 = pd.read_csv(f'Data/Luke_2018_Top_Songs.csv')
+luke_df_2019 = pd.read_csv(f'Data/Luke_2019_Top_Songs.csv')
+luke_df_2020 = pd.read_csv(f'Data/Luke_2020_Top_Songs.csv')
 
-fabian_df_2018 = pd.read_csv("C:/Users/lasmi/PycharmProjects/SpotifyProject/Data/FP_2018_Top_Songs.csv")
-fabian_df_2019 = pd.read_csv("C:/Users/lasmi/PycharmProjects/SpotifyProject/Data/fp_2019_Top_Songs.csv")
-fabian_df_2020 = pd.read_csv("C:/Users/lasmi/PycharmProjects/SpotifyProject/Data/FP_2020_Top_Songs.csv")
-fabian_df_2017 = pd.read_csv("C:/Users/lasmi/PycharmProjects/SpotifyProject/Data/FP_2017_Top_Songs.csv")
+jp_df_2017 = pd.read_csv(f'Data/jp_2017_Top_Songs.csv')
+jp_df_2018 = pd.read_csv(f"Data/jp_2018_Top_Songs.csv")
+jp_df_2019 = pd.read_csv(f"Data/jp_2019_Top_Songs.csv")
+jp_df_2020 = pd.read_csv(f"Data/jp_2020_Top_Songs.csv")
+
+fabian_df_2018 = pd.read_csv(f"Data/FP_2018_Top_Songs.csv")
+fabian_df_2019 = pd.read_csv(f"Data/fp_2019_Top_Songs.csv")
+fabian_df_2020 = pd.read_csv(f"Data/FP_2020_Top_Songs.csv")
+fabian_df_2017 = pd.read_csv(f"Data/FP_2017_Top_Songs.csv")
 
 #combining each person's data
 luke_df_concat = pd.concat([luke_df_2016, luke_df_2017, luke_df_2018, luke_df_2019, luke_df_2020], ignore_index=True, axis=0)
@@ -80,8 +82,8 @@ X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random
 #multiclass is exclusive and multilabel is not
 
 #Setting up a pipeline that scales and then utilizes multinomical logistic regression
-pipe = Pipeline([('scaler', StandardScaler()),     # Step 1
-                 ('model', LogisticRegression(multi_class='multinomial', solver='lbfgs')) # Step 2
+pipe = Pipeline([('scaler', StandardScaler()),
+                 ('model', LogisticRegression(multi_class='multinomial', solver='lbfgs'))
                  ])
 pipe.fit(X_train, y_train)
 pred = pipe.predict(X_test)
@@ -108,8 +110,13 @@ print(classification_report(y_test, pred))
 
 #Setting up a confusion 3x3 confusion matrix
 cnf_matrix = metrics.confusion_matrix(y_test, pred)
+cnf_matrix
 
-from sklearn.metrics import confusion_matrix, roc_curve, roc_auc_score, precision_recall_curve, auc, average_precision_score
+import seaborn as sns
+sns.heatmap(cnf_matrix, annot=True)
+
+
+
 
 
 class_names=[0,1] # name  of classes
@@ -126,3 +133,8 @@ plt.title('Confusion matrix', y=1.1)
 plt.ylabel('Actual label')
 plt.xlabel('Predicted label')
 
+
+
+from sklearn.metrics import ConfusionMatrixDisplay
+
+_ = ConfusionMatrixDisplay.from_estimator(cnf_matrix, X_test, y_test)
