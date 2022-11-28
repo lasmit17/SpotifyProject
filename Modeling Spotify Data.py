@@ -198,39 +198,26 @@ accuracy = accuracy_score(y_test, pred)
 print(f"Accuracy: {accuracy:.2f}")
 print(classification_report(y_test, pred))
 
-#Setting up a confusion 3x3 confusion matrix
-cnf_matrix = metrics.confusion_matrix(y_test, pred)
-
-class_names=[0,1] # name  of classes
-fig, ax = plt.subplots()
-tick_marks = np.arange(len(class_names))
-plt.xticks(tick_marks, class_names)
-plt.yticks(tick_marks, class_names)
-
-sns.heatmap(pd.DataFrame(cnf_matrix), annot=True, cmap="YlGnBu" ,fmt='g')
-
-ax.xaxis.set_label_position("top")
-plt.tight_layout()
-plt.title('Confusion matrix', y=1.1)
-plt.ylabel('Actual label')
-plt.xlabel('Predicted label')
 
 #XGBoost model creation
 
 import xgboost as xgb
 from sklearn.metrics import mean_squared_error
 
-data_dmatrix = xgb.DMatrix(data=X,label=y)
-
 #Setting Luke to 2, JP to 1, and Fabian to 0 in order to utilize XGBoost
 #This is our base model for XGBoost
 all_df["users_name"] = all_df['users_name'].replace({"Luke":2,"JP":1,"Fabian":0})
+
+X = all_df[all_spotify_features]
+y = all_df['users_name']
+data_dmatrix = xgb.DMatrix(data=X,label=y)
+
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=123)
 
 xg_reg = xgb.XGBClassifier(objective ='multi:softmax', colsample_bytree = 0.3, learning_rate = 0.1,
                 max_depth = 5, alpha = 10, n_estimators = 10, num_classes = 3)
 xg_reg.fit(X_train,y_train)
-
+all_df.users_name
 pred_xgb = xg_reg.predict(X_test)
 
 mse_xgb = np.sqrt(mean_squared_error(y_test, pred_xgb))
