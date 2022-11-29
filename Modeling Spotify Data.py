@@ -1,5 +1,6 @@
 #Importing necessary packages
 import pandas as pd
+
 from sklearn.model_selection import train_test_split
 import numpy as np
 from sklearn.linear_model import LogisticRegression
@@ -177,15 +178,15 @@ y = all_df['users_name']
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=123)
 
 
-#Setting up a pipeline that scales and then utilizes multinomical logistic regression
+#Setting up a pipeline that scales and then utilizes multinomial logistic regression
 pipe = Pipeline([('scaler', StandardScaler()),     # Step 1
                  ('model', LogisticRegression(multi_class='multinomial', solver='lbfgs')) # Step 2
                  ])
 #Fitting and predicting with our data
 pipe.fit(X_train, y_train)
-pred = pipe.predict(X_test)
+pred_logi = pipe.predict(X_test)
 
-print("Accuracy:",metrics.accuracy_score(y_test, pred))
+print("Accuracy:",metrics.accuracy_score(y_test, pred_logi))
 
 
 #Preforming cross-validation
@@ -355,3 +356,129 @@ print("Accuracy:",metrics.accuracy_score(y_test, clf_pred_final))
 clf_final_score = cross_val_score(clf_final, X, y, cv=10)
 clf_initial_score
 clf_final_score
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#jp doing metrics
+#jp doing metrics
+#jp doing metrics
+
+
+
+#jp doing metrics
+#jp doing metrics
+#jp doing metrics
+#jp doing metrics
+
+
+
+
+#jp doing metrics
+#jp doing metrics
+#jp doing metrics
+
+
+
+
+#jp doing metrics
+#jp doing metrics
+#jp doing metrics
+#jp doing metrics
+#jp doing metrics
+
+
+
+
+
+
+
+
+#this is for f1
+from sklearn.metrics import f1_score
+
+#F1 score is always between 0 and 1
+#Score of 0 is bad, score of 1 is good
+
+f1_logi = f1_score(y_test, pred_logi, average='macro')
+#f1_xgb = f1_score(y_test, pred_xgb, average='macro')
+print("F1 Logistic (base):",f1_logi)
+print("F1 Logistic (xgb):","unfortunately, python says 'no module named xgboost' when i import xgboost")
+
+
+f1_rf_macro = f1_score(y_test, clf_y_pred, average='macro')
+f1_rf_micro = f1_score(y_test, clf_y_pred, average='micro')
+f1_rf_w = f1_score(y_test, clf_y_pred, average='weighted')
+
+print("\nF1 RandomForest (base_macro):",f1_rf_macro)
+print("F1 RandomForest (base_micro):",f1_rf_micro)
+print("F1 RandomForest (base_weighted):",f1_rf_w)
+
+print("\n  The difference between macro, micro, and weighted is this:")
+print("  basically, since we have a 3x3 confusion matrix, we don't only have")
+print("  ONE kind of false positive, true positive, etc...")
+print("  the model can predict a true jp as being luke OR fabio, meaning our TN, TP, FN, FP")
+print("  are not so straightforward")
+print("\n  --macro, micro, and weighted are just different ways of combining the 3x3 matrix")
+print("  to get a better picture of your f1 score")
+
+
+f1_rf_tuned_macro = f1_score(y_test, clf_pred_final, average='macro')
+f1_rf_tuned_micro = f1_score(y_test, clf_pred_final, average='micro')
+f1_rf_tuned_w = f1_score(y_test, clf_pred_final, average='weighted')
+
+print("\nF1 RandomForest (tuned_macro):",f1_rf_tuned_macro)
+print("F1 RandomForest (tuned_micro):",f1_rf_tuned_micro)
+print("F1 RandomForest (tuned_weighted):",f1_rf_tuned_w)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#this is for MCC
+from sklearn.metrics import matthews_corrcoef
+#MCC is Matthews Correlation Coefficient
+#MCC score is always between -1 and 1
+#Score of -1 is bad, score of 0 would be an average random prediction, score of 1 is perfect model
+
+mcc_logi = matthews_corrcoef(y_test, pred_logi)
+#mcc_xgb = matthews_corrcoef(y_test, pred_xgb)
+mcc_rf = matthews_corrcoef(y_test, clf_y_pred)
+mcc_rf_tuned = matthews_corrcoef(y_test, clf_pred_final)
+
+print("MCC Logistic (base):",mcc_logi)
+print("MCC Logistic (xgb):","again, python says 'no module named xgboost' when i import xgboost")
+print("\nMCC RandomForest (base):",mcc_rf)
+print("\nMCC RandomForest (tuned):",mcc_rf_tuned)
+
+
+
+
+#looks like our best model truly is the base random forest!
