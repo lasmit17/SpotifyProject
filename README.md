@@ -1,4 +1,4 @@
 # SpotifyProject
 ML Spotify Project
 
-This is a readme. It is essential.
+In this repo one can find the code for our content-based prediction of our own music taste.
