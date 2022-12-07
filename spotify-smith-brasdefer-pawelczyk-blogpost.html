@@ -1,0 +1,1960 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="generator" content="distill" />
+
+  <style type="text/css">
+  /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
+  body {
+    visibility: hidden;
+  }
+  </style>
+
+ <!--radix_placeholder_import_source-->
+ <!--/radix_placeholder_import_source-->
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  { color: #00769e; background-color: #f1f3f5; }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span { color: #00769e; } /* Normal */
+code span.al { color: #ad0000; } /* Alert */
+code span.an { color: #5e5e5e; } /* Annotation */
+code span.at { color: #657422; } /* Attribute */
+code span.bn { color: #ad0000; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #00769e; } /* ControlFlow */
+code span.ch { color: #20794d; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #5e5e5e; } /* Comment */
+code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+code span.dt { color: #ad0000; } /* DataType */
+code span.dv { color: #ad0000; } /* DecVal */
+code span.er { color: #ad0000; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #ad0000; } /* Float */
+code span.fu { color: #4758ab; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #5e5e5e; } /* Information */
+code span.kw { color: #00769e; } /* Keyword */
+code span.op { color: #5e5e5e; } /* Operator */
+code span.ot { color: #00769e; } /* Other */
+code span.pp { color: #ad0000; } /* Preprocessor */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
+code span.ss { color: #20794d; } /* SpecialString */
+code span.st { color: #20794d; } /* String */
+code span.va { color: #111111; } /* Variable */
+code span.vs { color: #20794d; } /* VerbatimString */
+code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+</style>
+
+<style>
+  div.csl-bib-body { }
+  div.csl-entry {
+    clear: both;
+    }
+  .hanging div.csl-entry {
+    margin-left:2em;
+    text-indent:-2em;
+  }
+  div.csl-left-margin {
+    min-width:2em;
+    float:left;
+  }
+  div.csl-right-inline {
+    margin-left:2em;
+    padding-left:1em;
+  }
+  div.csl-indent {
+    margin-left: 2em;
+  }
+</style>
+
+  <!--radix_placeholder_meta_tags-->
+  <title>Content-based predicton Of Music Taste</title>
+
+  <meta property="description" itemprop="description" content="Who&#39;s Song Is This Anyways? We present a machine learning approach to classifying music taste on the basis of our three research group members&#39; top-100 songs of recent years."/>
+
+  <link rel="license" href="https://creativecommons.org/licenses/by/4.0/"/>
+
+  <!--  https://schema.org/Article -->
+  <meta property="article:published" itemprop="datePublished" content="2022-12-07"/>
+  <meta property="article:created" itemprop="dateCreated" content="2022-12-07"/>
+  <meta name="article:author" content="Juan Pablo Brasdefer"/>
+  <meta name="article:author" content="Luke Smith"/>
+  <meta name="article:author" content="Fabian Pawelczyk"/>
+
+  <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
+  <meta property="og:title" content="Content-based predicton Of Music Taste"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:description" content="Who&#39;s Song Is This Anyways? We present a machine learning approach to classifying music taste on the basis of our three research group members&#39; top-100 songs of recent years."/>
+  <meta property="og:locale" content="en_US"/>
+
+  <!--  https://dev.twitter.com/cards/types/summary -->
+  <meta property="twitter:card" content="summary"/>
+  <meta property="twitter:title" content="Content-based predicton Of Music Taste"/>
+  <meta property="twitter:description" content="Who&#39;s Song Is This Anyways? We present a machine learning approach to classifying music taste on the basis of our three research group members&#39; top-100 songs of recent years."/>
+
+  <!--/radix_placeholder_meta_tags-->
+  
+  <meta name="citation_reference" content="citation_title=Deep content-based music recommendation;citation_volume=26;citation_author=Aaron Van den Oord;citation_author=Sander Dieleman;citation_author=Benjamin Schrauwen"/>
+  <meta name="citation_reference" content="citation_title=Web-scale multimedia analysis: Does content matter?;citation_publisher=IEEE;citation_volume=18;citation_author=Malcolm Slaney"/>
+  <meta name="citation_reference" content="citation_title=Interpretable machine learning;citation_publisher=Lulu. com;citation_author=Christoph Molnar"/>
+  <!--radix_placeholder_rmarkdown_metadata-->
+
+  <script type="text/json" id="radix-rmarkdown-metadata">
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","description","author","date","categories","creative_commons","repository_url","output","preview","bibliography"]}},"value":[{"type":"character","attributes":{},"value":["Content-based predicton Of Music Taste"]},{"type":"character","attributes":{},"value":["Who's Song Is This Anyways? We present a machine learning approach to classifying music taste on the basis of our three research group members' top-100 songs of recent years.\n"]},{"type":"list","attributes":{},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Juan Pablo Brasdefer"]},{"type":"character","attributes":{},"value":["https://github.com/juanbrasdefer"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Luke Smith"]},{"type":"character","attributes":{},"value":["https://github.com/lasmit17"]}]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["name","url"]}},"value":[{"type":"character","attributes":{},"value":["Fabian Pawelczyk"]},{"type":"character","attributes":{},"value":["https://github.com/fpawelczyk"]}]}]},{"type":"character","attributes":{},"value":["2022-12-07"]},{"type":"character","attributes":{},"value":["Machine Learning","Content Based Prediction","Spotify"]},{"type":"character","attributes":{},"value":["CC BY"]},{"type":"character","attributes":{},"value":["https://github.com/lasmit17/SpotifyProject"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["self_contained"]}},"value":[{"type":"logical","attributes":{},"value":[false]}]}]},{"type":"character","attributes":{},"value":["figures/BERTfig3.png"]},{"type":"character","attributes":{},"value":["bibliography.bib"]}]}
+  </script>
+  <!--/radix_placeholder_rmarkdown_metadata-->
+  
+  <script type="text/json" id="radix-resource-manifest">
+  {"type":"character","attributes":{},"value":["bibliography.bib","distill-template.html","distill-template_files/anchor-4.2.2/anchor.min.js","distill-template_files/bowser-1.9.3/bowser.min.js","distill-template_files/distill-2.2.21/template.v2.js","distill-template_files/header-attrs-2.18/header-attrs.js","distill-template_files/jquery-3.6.0/jquery-3.6.0.js","distill-template_files/jquery-3.6.0/jquery-3.6.0.min.js","distill-template_files/jquery-3.6.0/jquery-3.6.0.min.map","distill-template_files/popper-2.6.0/popper.min.js","distill-template_files/tippy-6.2.7/tippy-bundle.umd.min.js","distill-template_files/tippy-6.2.7/tippy-light-border.css","distill-template_files/tippy-6.2.7/tippy.css","distill-template_files/tippy-6.2.7/tippy.umd.min.js","distill-template_files/webcomponents-2.0.0/webcomponents.js","figures/BERTCNNMinor_acc_loss.png","figures/BERTfig3.png","figures/CNNMajor_acc_loss.png","figures/desc-country.png","figures/desc-major.png","figures/feature_table_1.png","figures/feature_table_bold.png","figures/metrics.png","figures/prf1-major.png","figures/RF_confusion.png","figures/rf_para_test.png","figures/rf_param.png","figures/shap_all_avg.png","figures/shap_local_12.png","figures/shap_summary_plot.png","figures/tt.png","figures/xg_param.png","spotify-smith-brasdefer-pawelczyk-blogpost_files/anchor-4.2.2/anchor.min.js","spotify-smith-brasdefer-pawelczyk-blogpost_files/bowser-1.9.3/bowser.min.js","spotify-smith-brasdefer-pawelczyk-blogpost_files/distill-2.2.21/template.v2.js","spotify-smith-brasdefer-pawelczyk-blogpost_files/header-attrs-2.18/header-attrs.js","spotify-smith-brasdefer-pawelczyk-blogpost_files/jquery-3.6.0/jquery-3.6.0.js","spotify-smith-brasdefer-pawelczyk-blogpost_files/jquery-3.6.0/jquery-3.6.0.min.js","spotify-smith-brasdefer-pawelczyk-blogpost_files/jquery-3.6.0/jquery-3.6.0.min.map","spotify-smith-brasdefer-pawelczyk-blogpost_files/popper-2.6.0/popper.min.js","spotify-smith-brasdefer-pawelczyk-blogpost_files/tippy-6.2.7/tippy-bundle.umd.min.js","spotify-smith-brasdefer-pawelczyk-blogpost_files/tippy-6.2.7/tippy-light-border.css","spotify-smith-brasdefer-pawelczyk-blogpost_files/tippy-6.2.7/tippy.css","spotify-smith-brasdefer-pawelczyk-blogpost_files/tippy-6.2.7/tippy.umd.min.js","spotify-smith-brasdefer-pawelczyk-blogpost_files/webcomponents-2.0.0/webcomponents.js"]}
+  </script>
+  <!--radix_placeholder_navigation_in_header-->
+  <!--/radix_placeholder_navigation_in_header-->
+  <!--radix_placeholder_distill-->
+
+  <style type="text/css">
+
+  body {
+    background-color: white;
+  }
+
+  .pandoc-table {
+    width: 100%;
+  }
+
+  .pandoc-table>caption {
+    margin-bottom: 10px;
+  }
+
+  .pandoc-table th:not([align]) {
+    text-align: left;
+  }
+
+  .pagedtable-footer {
+    font-size: 15px;
+  }
+
+  d-byline .byline {
+    grid-template-columns: 2fr 2fr;
+  }
+
+  d-byline .byline h3 {
+    margin-block-start: 1.5em;
+  }
+
+  d-byline .byline .authors-affiliations h3 {
+    margin-block-start: 0.5em;
+  }
+
+  .authors-affiliations .orcid-id {
+    width: 16px;
+    height:16px;
+    margin-left: 4px;
+    margin-right: 4px;
+    vertical-align: middle;
+    padding-bottom: 2px;
+  }
+
+  d-title .dt-tags {
+    margin-top: 1em;
+    grid-column: text;
+  }
+
+  .dt-tags .dt-tag {
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(0,0,0,0.6);
+    padding: 0em 0.4em;
+    margin-right: 0.5em;
+    margin-bottom: 0.4em;
+    font-size: 70%;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  d-article table.gt_table td,
+  d-article table.gt_table th {
+    border-bottom: none;
+    font-size: 100%;
+  }
+
+  .html-widget {
+    margin-bottom: 2.0em;
+  }
+
+  .l-screen-inset {
+    padding-right: 16px;
+  }
+
+  .l-screen .caption {
+    margin-left: 10px;
+  }
+
+  .shaded {
+    background: rgb(247, 247, 247);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .shaded .html-widget {
+    margin-bottom: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .shaded .shaded-content {
+    background: white;
+  }
+
+  .text-output {
+    margin-top: 0;
+    line-height: 1.5em;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  d-article {
+    padding-top: 2.5rem;
+    padding-bottom: 30px;
+  }
+
+  d-appendix {
+    padding-top: 30px;
+  }
+
+  d-article>p>img {
+    width: 100%;
+  }
+
+  d-article h2 {
+    margin: 1rem 0 1.5rem 0;
+  }
+
+  d-article h3 {
+    margin-top: 1.5rem;
+  }
+
+  d-article iframe {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 2.0em;
+    width: 100%;
+  }
+
+  /* Tweak code blocks */
+
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  d-article pre,
+  d-article div.sourceCode,
+  d-article div.sourceCode pre {
+    overflow: auto;
+  }
+
+  d-article div.sourceCode {
+    background-color: white;
+  }
+
+  d-article div.sourceCode pre {
+    padding-left: 10px;
+    font-size: 12px;
+    border-left: 2px solid rgba(0,0,0,0.1);
+  }
+
+  d-article pre {
+    font-size: 12px;
+    color: black;
+    background: none;
+    margin-top: 0;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  d-article pre a {
+    border-bottom: none;
+  }
+
+  d-article pre a:hover {
+    border-bottom: none;
+    text-decoration: underline;
+  }
+
+  d-article details {
+    grid-column: text;
+    margin-bottom: 0.8em;
+  }
+
+  @media(min-width: 768px) {
+
+  d-article pre,
+  d-article div.sourceCode,
+  d-article div.sourceCode pre {
+    overflow: visible !important;
+  }
+
+  d-article div.sourceCode pre {
+    padding-left: 18px;
+    font-size: 14px;
+  }
+
+  d-article pre {
+    font-size: 14px;
+  }
+
+  }
+
+  figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  /* CSS for d-contents */
+
+  .d-contents {
+    grid-column: text;
+    color: rgba(0,0,0,0.8);
+    font-size: 0.9em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    padding-left: 0.25em;
+    justify-self: start;
+  }
+
+  @media(min-width: 1000px) {
+    .d-contents.d-contents-float {
+      height: 0;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      justify-self: center;
+      padding-right: 3em;
+      padding-left: 2em;
+    }
+  }
+
+  .d-contents nav h3 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  .d-contents li {
+    list-style-type: none
+  }
+
+  .d-contents nav > ul {
+    padding-left: 0;
+  }
+
+  .d-contents ul {
+    padding-left: 1em
+  }
+
+  .d-contents nav ul li {
+    margin-top: 0.6em;
+    margin-bottom: 0.2em;
+  }
+
+  .d-contents nav a {
+    font-size: 13px;
+    border-bottom: none;
+    text-decoration: none
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .d-contents nav a:hover {
+    text-decoration: underline solid rgba(0, 0, 0, 0.6)
+  }
+
+  .d-contents nav > ul > li > a {
+    font-weight: 600;
+  }
+
+  .d-contents nav > ul > li > ul {
+    font-weight: inherit;
+  }
+
+  .d-contents nav > ul > li > ul > li {
+    margin-top: 0.2em;
+  }
+
+
+  .d-contents nav ul {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+  }
+
+  .d-article-with-toc h2:nth-child(2) {
+    margin-top: 0;
+  }
+
+
+  /* Figure */
+
+  .figure {
+    position: relative;
+    margin-bottom: 2.5em;
+    margin-top: 1.5em;
+  }
+
+  .figure .caption {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+
+  .figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  .figure .caption a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .figure .caption b,
+  .figure .caption strong, {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1.0);
+  }
+
+  /* Citations */
+
+  d-article .citation {
+    color: inherit;
+    cursor: inherit;
+  }
+
+  div.hanging-indent{
+    margin-left: 1em; text-indent: -1em;
+  }
+
+  /* Citation hover box */
+
+  .tippy-box[data-theme~=light-border] {
+    background-color: rgba(250, 250, 250, 0.95);
+  }
+
+  .tippy-content > p {
+    margin-bottom: 0;
+    padding: 2px;
+  }
+
+
+  /* Tweak 1000px media break to show more text */
+
+  @media(min-width: 1000px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 80px [middle-start] 50px [text-start kicker-end] 65px 65px 65px 65px 65px 65px 65px 65px [text-end gutter-start] 65px [middle-end] 65px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 16px;
+    }
+
+    .grid {
+      grid-column-gap: 16px;
+    }
+
+    d-article {
+      font-size: 1.06rem;
+      line-height: 1.7em;
+    }
+    figure .caption, .figure .caption, figure figcaption {
+      font-size: 13px;
+    }
+  }
+
+  @media(min-width: 1180px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 60px [middle-start] 60px [text-start kicker-end] 60px 60px 60px 60px 60px 60px 60px 60px [text-end gutter-start] 60px [middle-end] 60px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 32px;
+    }
+
+    .grid {
+      grid-column-gap: 32px;
+    }
+  }
+
+
+  /* Get the citation styles for the appendix (not auto-injected on render since
+     we do our own rendering of the citation appendix) */
+
+  d-appendix .citation-appendix,
+  .d-appendix .citation-appendix {
+    font-size: 11px;
+    line-height: 15px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 18px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.02);
+    padding: 10px 18px;
+    border-radius: 3px;
+    color: rgba(150, 150, 150, 1);
+    overflow: hidden;
+    margin-top: -12px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  /* Include appendix styles here so they can be overridden */
+
+  d-appendix {
+    contain: layout style;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-top: 60px;
+    margin-bottom: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    color: rgba(0,0,0,0.5);
+    padding-top: 60px;
+    padding-bottom: 48px;
+  }
+
+  d-appendix h3 {
+    grid-column: page-start / text-start;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 1em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.65);
+  }
+
+  d-appendix h3 + * {
+    margin-top: 1em;
+  }
+
+  d-appendix ol {
+    padding: 0 0 0 15px;
+  }
+
+  @media (min-width: 768px) {
+    d-appendix ol {
+      padding: 0 0 0 30px;
+      margin-left: -30px;
+    }
+  }
+
+  d-appendix li {
+    margin-bottom: 1em;
+  }
+
+  d-appendix a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  d-appendix > * {
+    grid-column: text;
+  }
+
+  d-appendix > d-footnote-list,
+  d-appendix > d-citation-list,
+  d-appendix > distill-appendix {
+    grid-column: screen;
+  }
+
+  /* Include footnote styles here so they can be overridden */
+
+  d-footnote-list {
+    contain: layout style;
+  }
+
+  d-footnote-list > * {
+    grid-column: text;
+  }
+
+  d-footnote-list a.footnote-backlink {
+    color: rgba(0,0,0,0.3);
+    padding-left: 0.5em;
+  }
+
+
+
+  /* Anchor.js */
+
+  .anchorjs-link {
+    /*transition: all .25s linear; */
+    text-decoration: none;
+    border-bottom: none;
+  }
+  *:hover > .anchorjs-link {
+    margin-left: -1.125em !important;
+    text-decoration: none;
+    border-bottom: none;
+  }
+
+  /* Social footer */
+
+  .social_footer {
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.67);
+  }
+
+  .disqus-comments {
+    margin-right: 30px;
+  }
+
+  .disqus-comment-count {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+
+  #disqus_thread {
+    margin-top: 30px;
+  }
+
+  .article-sharing a {
+    border-bottom: none;
+    margin-right: 8px;
+  }
+
+  .article-sharing a:hover {
+    border-bottom: none;
+  }
+
+  .sidebar-section.subscribe {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+
+  .subscribe p {
+    margin-bottom: 0.5em;
+  }
+
+
+  .article-footer .subscribe {
+    font-size: 15px;
+    margin-top: 45px;
+  }
+
+
+  .sidebar-section.custom {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+
+  .custom p {
+    margin-bottom: 0.5em;
+  }
+
+  /* Styles for listing layout (hide title) */
+  .layout-listing d-title, .layout-listing .d-title {
+    display: none;
+  }
+
+  /* Styles for posts lists (not auto-injected) */
+
+
+  .posts-with-sidebar {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .posts-list .description h2,
+  .posts-list .description p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  .posts-list .description h2 {
+    font-weight: 700;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .posts-list h2.post-tag {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 12px;
+  }
+  .posts-list {
+    margin-top: 60px;
+    margin-bottom: 24px;
+  }
+
+  .posts-list .post-preview {
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 24px 0;
+  }
+
+  .post-preview-last {
+    border-bottom: none !important;
+  }
+
+  .posts-list .posts-list-caption {
+    grid-column: screen;
+    font-weight: 400;
+  }
+
+  .posts-list .post-preview h2 {
+    margin: 0 0 6px 0;
+    line-height: 1.2em;
+    font-style: normal;
+    font-size: 24px;
+  }
+
+  .posts-list .post-preview p {
+    margin: 0 0 12px 0;
+    line-height: 1.4em;
+    font-size: 16px;
+  }
+
+  .posts-list .post-preview .thumbnail {
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    position: relative;
+    max-width: 500px;
+  }
+  .posts-list .post-preview img {
+    width: 100%;
+    display: block;
+  }
+
+  .posts-list .metadata {
+    font-size: 12px;
+    line-height: 1.4em;
+    margin-bottom: 18px;
+  }
+
+  .posts-list .metadata > * {
+    display: inline-block;
+  }
+
+  .posts-list .metadata .publishedDate {
+    margin-right: 2em;
+  }
+
+  .posts-list .metadata .dt-authors {
+    display: block;
+    margin-top: 0.3em;
+    margin-right: 2em;
+  }
+
+  .posts-list .dt-tags {
+    display: block;
+    line-height: 1em;
+  }
+
+  .posts-list .dt-tags .dt-tag {
+    display: inline-block;
+    color: rgba(0,0,0,0.6);
+    padding: 0.3em 0.4em;
+    margin-right: 0.2em;
+    margin-bottom: 0.4em;
+    font-size: 60%;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .posts-list img {
+    opacity: 1;
+  }
+
+  .posts-list img[data-src] {
+    opacity: 0;
+  }
+
+  .posts-more {
+    clear: both;
+  }
+
+
+  .posts-sidebar {
+    font-size: 16px;
+  }
+
+  .posts-sidebar h3 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .sidebar-section {
+    margin-bottom: 30px;
+  }
+
+  .categories ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .categories li {
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 0;
+  }
+
+  .categories li>a {
+    border-bottom: none;
+  }
+
+  .categories li>a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  }
+
+  .categories .active {
+    font-weight: 600;
+  }
+
+  .categories .category-count {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+
+  @media(min-width: 768px) {
+    .posts-list .post-preview h2 {
+      font-size: 26px;
+    }
+    .posts-list .post-preview .thumbnail {
+      float: right;
+      width: 30%;
+      margin-bottom: 0;
+    }
+    .posts-list .post-preview .description {
+      float: left;
+      width: 45%;
+    }
+    .posts-list .post-preview .metadata {
+      float: left;
+      width: 20%;
+      margin-top: 8px;
+    }
+    .posts-list .post-preview p {
+      margin: 0 0 12px 0;
+      line-height: 1.5em;
+      font-size: 16px;
+    }
+    .posts-with-sidebar .posts-list {
+      float: left;
+      width: 75%;
+    }
+    .posts-with-sidebar .posts-sidebar {
+      float: right;
+      width: 20%;
+      margin-top: 60px;
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+  }
+
+
+  /* Improve display for browsers without grid (IE/Edge <= 15) */
+
+  .downlevel {
+    line-height: 1.6em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+  }
+
+  .downlevel .d-title {
+    padding-top: 6rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .downlevel .d-title h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin: 0 0 0.5rem;
+  }
+
+  .downlevel .d-title p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.55em;
+    margin-top: 0;
+  }
+
+  .downlevel .d-byline {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    font-size: 0.8rem;
+    line-height: 1.8em;
+  }
+
+  .downlevel .section-separator {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .downlevel .d-article {
+    font-size: 1.06rem;
+    line-height: 1.7em;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+
+  .downlevel .d-appendix {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: none;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.5);
+    padding-top: 40px;
+    padding-bottom: 48px;
+  }
+
+  .downlevel .footnotes ol {
+    padding-left: 13px;
+  }
+
+  .downlevel .base-grid,
+  .downlevel .distill-header,
+  .downlevel .d-title,
+  .downlevel .d-abstract,
+  .downlevel .d-article,
+  .downlevel .d-appendix,
+  .downlevel .distill-appendix,
+  .downlevel .d-byline,
+  .downlevel .d-footnote-list,
+  .downlevel .d-citation-list,
+  .downlevel .distill-footer,
+  .downlevel .appendix-bottom,
+  .downlevel .posts-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media(min-width: 768px) {
+    .downlevel .base-grid,
+    .downlevel .distill-header,
+    .downlevel .d-title,
+    .downlevel .d-abstract,
+    .downlevel .d-article,
+    .downlevel .d-appendix,
+    .downlevel .distill-appendix,
+    .downlevel .d-byline,
+    .downlevel .d-footnote-list,
+    .downlevel .d-citation-list,
+    .downlevel .distill-footer,
+    .downlevel .appendix-bottom,
+    .downlevel .posts-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 900px;
+  }
+  }
+
+  .downlevel pre code {
+    display: block;
+    border-left: 2px solid rgba(0, 0, 0, .1);
+    padding: 0 0 0 20px;
+    font-size: 14px;
+  }
+
+  .downlevel code, .downlevel pre {
+    color: black;
+    background: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  .downlevel .posts-list .post-preview {
+    color: inherit;
+  }
+
+
+
+  </style>
+
+  <script type="application/javascript">
+
+  function is_downlevel_browser() {
+    if (bowser.isUnsupportedBrowser({ msie: "12", msedge: "16"},
+                                   window.navigator.userAgent)) {
+      return true;
+    } else {
+      return window.load_distill_framework === undefined;
+    }
+  }
+
+  // show body when load is complete
+  function on_load_complete() {
+
+    // add anchors
+    if (window.anchors) {
+      window.anchors.options.placement = 'left';
+      window.anchors.add('d-article > h2, d-article > h3, d-article > h4, d-article > h5');
+    }
+
+
+    // set body to visible
+    document.body.style.visibility = 'visible';
+
+    // force redraw for leaflet widgets
+    if (window.HTMLWidgets) {
+      var maps = window.HTMLWidgets.findAll(".leaflet");
+      $.each(maps, function(i, el) {
+        var map = this.getMap();
+        map.invalidateSize();
+        map.eachLayer(function(layer) {
+          if (layer instanceof L.TileLayer)
+            layer.redraw();
+        });
+      });
+    }
+
+    // trigger 'shown' so htmlwidgets resize
+    $('d-article').trigger('shown');
+  }
+
+  function init_distill() {
+
+    init_common();
+
+    // create front matter
+    var front_matter = $('<d-front-matter></d-front-matter>');
+    $('#distill-front-matter').wrap(front_matter);
+
+    // create d-title
+    $('.d-title').changeElementType('d-title');
+
+    // create d-byline
+    var byline = $('<d-byline></d-byline>');
+    $('.d-byline').replaceWith(byline);
+
+    // create d-article
+    var article = $('<d-article></d-article>');
+    $('.d-article').wrap(article).children().unwrap();
+
+    // move posts container into article
+    $('.posts-container').appendTo($('d-article'));
+
+    // create d-appendix
+    $('.d-appendix').changeElementType('d-appendix');
+
+    // flag indicating that we have appendix items
+    var appendix = $('.appendix-bottom').children('h3').length > 0;
+
+    // replace footnotes with <d-footnote>
+    $('.footnote-ref').each(function(i, val) {
+      appendix = true;
+      var href = $(this).attr('href');
+      var id = href.replace('#', '');
+      var fn = $('#' + id);
+      var fn_p = $('#' + id + '>p');
+      fn_p.find('.footnote-back').remove();
+      var text = fn_p.html();
+      var dtfn = $('<d-footnote></d-footnote>');
+      dtfn.html(text);
+      $(this).replaceWith(dtfn);
+    });
+    // remove footnotes
+    $('.footnotes').remove();
+
+    // move refs into #references-listing
+    $('#references-listing').replaceWith($('#refs'));
+
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      var id = $(this).attr('id');
+      $('.d-contents a[href="#' + id + '"]').parent().remove();
+      appendix = true;
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('d-appendix'));
+    });
+
+    // show d-appendix if we have appendix content
+    $("d-appendix").css('display', appendix ? 'grid' : 'none');
+
+    // localize layout chunks to just output
+    $('.layout-chunk').each(function(i, val) {
+
+      // capture layout
+      var layout = $(this).attr('data-layout');
+
+      // apply layout to markdown level block elements
+      var elements = $(this).children().not('details, div.sourceCode, pre, script');
+      elements.each(function(i, el) {
+        var layout_div = $('<div class="' + layout + '"></div>');
+        if (layout_div.hasClass('shaded')) {
+          var shaded_content = $('<div class="shaded-content"></div>');
+          $(this).wrap(shaded_content);
+          $(this).parent().wrap(layout_div);
+        } else {
+          $(this).wrap(layout_div);
+        }
+      });
+
+
+      // unwrap the layout-chunk div
+      $(this).children().unwrap();
+    });
+
+    // remove code block used to force  highlighting css
+    $('.distill-force-highlighting-css').parent().remove();
+
+    // remove empty line numbers inserted by pandoc when using a
+    // custom syntax highlighting theme
+    $('code.sourceCode a:empty').remove();
+
+    // load distill framework
+    load_distill_framework();
+
+    // wait for window.distillRunlevel == 4 to do post processing
+    function distill_post_process() {
+
+      if (!window.distillRunlevel || window.distillRunlevel < 4)
+        return;
+
+      // hide author/affiliations entirely if we have no authors
+      var front_matter = JSON.parse($("#distill-front-matter").html());
+      var have_authors = front_matter.authors && front_matter.authors.length > 0;
+      if (!have_authors)
+        $('d-byline').addClass('hidden');
+
+      // article with toc class
+      $('.d-contents').parent().addClass('d-article-with-toc');
+
+      // strip links that point to #
+      $('.authors-affiliations').find('a[href="#"]').removeAttr('href');
+
+      // add orcid ids
+      $('.authors-affiliations').find('.author').each(function(i, el) {
+        var orcid_id = front_matter.authors[i].orcidID;
+        if (orcid_id) {
+          var a = $('<a></a>');
+          a.attr('href', 'https://orcid.org/' + orcid_id);
+          var img = $('<img></img>');
+          img.addClass('orcid-id');
+          img.attr('alt', 'ORCID ID');
+          img.attr('src','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==');
+          a.append(img);
+          $(this).append(a);
+        }
+      });
+
+      // hide elements of author/affiliations grid that have no value
+      function hide_byline_column(caption) {
+        $('d-byline').find('h3:contains("' + caption + '")').parent().css('visibility', 'hidden');
+      }
+
+      // affiliations
+      var have_affiliations = false;
+      for (var i = 0; i<front_matter.authors.length; ++i) {
+        var author = front_matter.authors[i];
+        if (author.affiliation !== "&nbsp;") {
+          have_affiliations = true;
+          break;
+        }
+      }
+      if (!have_affiliations)
+        $('d-byline').find('h3:contains("Affiliations")').css('visibility', 'hidden');
+
+      // published date
+      if (!front_matter.publishedDate)
+        hide_byline_column("Published");
+
+      // document object identifier
+      var doi = $('d-byline').find('h3:contains("DOI")');
+      var doi_p = doi.next().empty();
+      if (!front_matter.doi) {
+        // if we have a citation and valid citationText then link to that
+        if ($('#citation').length > 0 && front_matter.citationText) {
+          doi.html('Citation');
+          $('<a href="#citation"></a>')
+            .text(front_matter.citationText)
+            .appendTo(doi_p);
+        } else {
+          hide_byline_column("DOI");
+        }
+      } else {
+        $('<a></a>')
+           .attr('href', "https://doi.org/" + front_matter.doi)
+           .html(front_matter.doi)
+           .appendTo(doi_p);
+      }
+
+       // change plural form of authors/affiliations
+      if (front_matter.authors.length === 1) {
+        var grid = $('.authors-affiliations');
+        grid.children('h3:contains("Authors")').text('Author');
+        grid.children('h3:contains("Affiliations")').text('Affiliation');
+      }
+
+      // remove d-appendix and d-footnote-list local styles
+      $('d-appendix > style:first-child').remove();
+      $('d-footnote-list > style:first-child').remove();
+
+      // move appendix-bottom entries to the bottom
+      $('.appendix-bottom').appendTo('d-appendix').children().unwrap();
+      $('.appendix-bottom').remove();
+
+      // hoverable references
+      $('span.citation[data-cites]').each(function() {
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
+          $(this).html(fn.shadowRoot.querySelector("sup"))
+          $(this).id = fn.id
+          fn.remove()
+        }
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
+        }).join("\n");
+        window.tippy(this, {
+          allowHTML: true,
+          content: refHtml,
+          maxWidth: 500,
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start'
+        });
+      });
+
+      // fix footnotes in tables (#411)
+      // replacing broken distill.pub feature
+      $('table d-footnote').each(function() {
+        // we replace internal showAtNode methode which is triggered when hovering a footnote
+        this.hoverBox.showAtNode = function(node) {
+          // ported from https://github.com/distillpub/template/pull/105/files
+          calcOffset = function(elem) {
+              let x = elem.offsetLeft;
+              let y = elem.offsetTop;
+              // Traverse upwards until an `absolute` element is found or `elem`
+              // becomes null.
+              while (elem = elem.offsetParent && elem.style.position != 'absolute') {
+                  x += elem.offsetLeft;
+                  y += elem.offsetTop;
+              }
+
+              return { left: x, top: y };
+          }
+          // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+          const bbox = node.getBoundingClientRect();
+          const offset = calcOffset(node);
+          this.show([offset.left + bbox.width, offset.top + bbox.height]);
+        }
+      })
+
+      // clear polling timer
+      clearInterval(tid);
+
+      // show body now that everything is ready
+      on_load_complete();
+    }
+
+    var tid = setInterval(distill_post_process, 50);
+    distill_post_process();
+
+  }
+
+  function init_downlevel() {
+
+    init_common();
+
+     // insert hr after d-title
+    $('.d-title').after($('<hr class="section-separator"/>'));
+
+    // check if we have authors
+    var front_matter = JSON.parse($("#distill-front-matter").html());
+    var have_authors = front_matter.authors && front_matter.authors.length > 0;
+
+    // manage byline/border
+    if (!have_authors)
+      $('.d-byline').remove();
+    $('.d-byline').after($('<hr class="section-separator"/>'));
+    $('.d-byline a').remove();
+
+    // remove toc
+    $('.d-contents').remove();
+
+    // move appendix elements
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('.d-appendix'));
+    });
+
+
+    // inject headers into references and footnotes
+    var refs_header = $('<h3></h3>');
+    refs_header.text('References');
+    $('#refs').prepend(refs_header);
+
+    var footnotes_header = $('<h3></h3');
+    footnotes_header.text('Footnotes');
+    $('.footnotes').children('hr').first().replaceWith(footnotes_header);
+
+    // move appendix-bottom entries to the bottom
+    $('.appendix-bottom').appendTo('.d-appendix').children().unwrap();
+    $('.appendix-bottom').remove();
+
+    // remove appendix if it's empty
+    if ($('.d-appendix').children().length === 0)
+      $('.d-appendix').remove();
+
+    // prepend separator above appendix
+    $('.d-appendix').before($('<hr class="section-separator" style="clear: both"/>'));
+
+    // trim code
+    $('pre>code').each(function(i, val) {
+      $(this).html($.trim($(this).html()));
+    });
+
+    // move posts-container right before article
+    $('.posts-container').insertBefore($('.d-article'));
+
+    $('body').addClass('downlevel');
+
+    on_load_complete();
+  }
+
+
+  function init_common() {
+
+    // jquery plugin to change element types
+    (function($) {
+      $.fn.changeElementType = function(newType) {
+        var attrs = {};
+
+        $.each(this[0].attributes, function(idx, attr) {
+          attrs[attr.nodeName] = attr.nodeValue;
+        });
+
+        this.replaceWith(function() {
+          return $("<" + newType + "/>", attrs).append($(this).contents());
+        });
+      };
+    })(jQuery);
+
+    // prevent underline for linked images
+    $('a > img').parent().css({'border-bottom' : 'none'});
+
+    // mark non-body figures created by knitr chunks as 100% width
+    $('.layout-chunk').each(function(i, val) {
+      var figures = $(this).find('img, .html-widget');
+      // ignore leaflet img layers (#106)
+      figures = figures.filter(':not(img[class*="leaflet"])')
+      if ($(this).attr('data-layout') !== "l-body") {
+        figures.css('width', '100%');
+      } else {
+        figures.css('max-width', '100%');
+        figures.filter("[width]").each(function(i, val) {
+          var fig = $(this);
+          fig.css('width', fig.attr('width') + 'px');
+        });
+
+      }
+    });
+
+    // auto-append index.html to post-preview links in file: protocol
+    // and in rstudio ide preview
+    $('.post-preview').each(function(i, val) {
+      if (window.location.protocol === "file:")
+        $(this).attr('href', $(this).attr('href') + "index.html");
+    });
+
+    // get rid of index.html references in header
+    if (window.location.protocol !== "file:") {
+      $('.distill-site-header a[href]').each(function(i,val) {
+        $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
+      });
+    }
+
+    // add class to pandoc style tables
+    $('tr.header').parent('thead').parent('table').addClass('pandoc-table');
+    $('.kable-table').children('table').addClass('pandoc-table');
+
+    // add figcaption style to table captions
+    $('caption').parent('table').addClass("figcaption");
+
+    // initialize posts list
+    if (window.init_posts_list)
+      window.init_posts_list();
+
+    // implmement disqus comment link
+    $('.disqus-comment-count').click(function() {
+      window.headroom_prevent_pin = true;
+      $('#disqus_thread').toggleClass('hidden');
+      if (!$('#disqus_thread').hasClass('hidden')) {
+        var offset = $(this).offset();
+        $(window).resize();
+        $('html, body').animate({
+          scrollTop: offset.top - 35
+        });
+      }
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    if (is_downlevel_browser())
+      init_downlevel();
+    else
+      window.addEventListener('WebComponentsReady', init_distill);
+  });
+
+  </script>
+
+  <!--/radix_placeholder_distill-->
+  <script src="spotify-smith-brasdefer-pawelczyk-blogpost_files/header-attrs-2.18/header-attrs.js"></script>
+  <script src="spotify-smith-brasdefer-pawelczyk-blogpost_files/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <script src="spotify-smith-brasdefer-pawelczyk-blogpost_files/popper-2.6.0/popper.min.js"></script>
+  <link href="spotify-smith-brasdefer-pawelczyk-blogpost_files/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="spotify-smith-brasdefer-pawelczyk-blogpost_files/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="spotify-smith-brasdefer-pawelczyk-blogpost_files/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="spotify-smith-brasdefer-pawelczyk-blogpost_files/anchor-4.2.2/anchor.min.js"></script>
+  <script src="spotify-smith-brasdefer-pawelczyk-blogpost_files/bowser-1.9.3/bowser.min.js"></script>
+  <script src="spotify-smith-brasdefer-pawelczyk-blogpost_files/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="spotify-smith-brasdefer-pawelczyk-blogpost_files/distill-2.2.21/template.v2.js"></script>
+  <!--radix_placeholder_site_in_header-->
+  <!--/radix_placeholder_site_in_header-->
+
+
+</head>
+
+<body>
+
+<!--radix_placeholder_front_matter-->
+
+<script id="distill-front-matter" type="text/json">
+{"title":"Content-based predicton Of Music Taste","description":"Who's Song Is This Anyways? We present a machine learning approach to classifying music taste on the basis of our three research group members' top-100 songs of recent years.","authors":[{"author":"Juan Pablo Brasdefer","authorURL":"https://github.com/juanbrasdefer","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""},{"author":"Luke Smith","authorURL":"https://github.com/lasmit17","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""},{"author":"Fabian Pawelczyk","authorURL":"https://github.com/fpawelczyk","affiliation":"&nbsp;","affiliationURL":"#","orcidID":""}],"publishedDate":"2022-12-07T00:00:00.000+01:00","citationText":"Brasdefer, et al., 2022"}
+</script>
+
+<!--/radix_placeholder_front_matter-->
+<!--radix_placeholder_navigation_before_body-->
+<!--/radix_placeholder_navigation_before_body-->
+<!--radix_placeholder_site_before_body-->
+<!--/radix_placeholder_site_before_body-->
+
+<div class="d-title">
+<h1>Content-based predicton Of Music Taste</h1>
+<!--radix_placeholder_categories-->
+<div class="dt-tags">
+<div class="dt-tag">Machine Learning</div>
+<div class="dt-tag">Content Based Prediction</div>
+<div class="dt-tag">Spotify</div>
+</div>
+<!--/radix_placeholder_categories-->
+<p><p>Who’s Song Is This Anyways? We present a machine learning approach to classifying music taste on the basis of our three research group members’ top-100 songs of recent years.</p></p>
+</div>
+
+<div class="d-byline">
+  Juan Pablo Brasdefer <a href="https://github.com/juanbrasdefer" class="uri">https://github.com/juanbrasdefer</a> 
+  
+,   Luke Smith <a href="https://github.com/lasmit17" class="uri">https://github.com/lasmit17</a> 
+  
+,   Fabian Pawelczyk <a href="https://github.com/fpawelczyk" class="uri">https://github.com/fpawelczyk</a> 
+  
+<br/>2022-12-07
+</div>
+
+<div class="d-article">
+<h2 id="abstract">Abstract</h2>
+<p>The exercise of Classification in Music has been a natural playground for simple and complex Machine Learning
+(ML) tasks alike, largely due to the complexity of ’sound’
+and the volume of data available. In order to elaborate on the question whether song-features can be utilized to predict a user’s music taste, the project takes a sample of the musical ’libraries’ of the three group members and applies various models under
+the ML umbrella in attempts to classify ’who’ the song ’belongs’ to. Results between Logistic, XGBoost, and RandomForest models are assessed, with the RandomForest <em>(F1 = .67)</em> proving
+strongest.</p>
+<h2 id="introduction-background">Introduction / Background</h2>
+<p>Few things are as personal as taste in music; no two
+people are identical, right? Listeners want to listen to music they
+enjoy and discover more music to listen to – it’s a simple
+concept. Companies and independent agents alike have
+understood this phenomenon, and pioneered and refined
+the idea of taste-based recommendation for decades,
+exactly because it lies at the center of musical enjoyment.
+The better you can give people what they like, the more
+demanded your service becomes. Classification becomes a
+powerful tool.</p>
+<p>In general we can think about music personalization as a two-way street.
+The insights gathered by Spotify allows them to see that there might be a young Brazil artist who has music that would be a hit in Scandinavia. And Spotify has the power to bring that music to those listeners in Scandinavia through their personalization channels. This then introduces the artist to a more global audience that might not have been able to discover them on their own. (cite) In order to understand music taste prediction better let’s take a closer look into two mayor approaches of builing a classification model for our purposes.</p>
+<p><strong>Collaborative Filtering Model</strong>: The basic concept is rather than recommend songs (but also e.g., movies and ither items) based on similarities between songs, collaborative filtering focuses on similarities between users that listen to certain songs. For example: If two user A and B have their top-four favorite artists in common but not the fifth, then user A gets recommended the top-fifth artist of user B and vice versa. This kind of filtering is called collaborative filtering <span class="citation" data-cites="slaney2011web">(<a href="#ref-slaney2011web" role="doc-biblioref">Slaney 2011</a>)</span>.</p>
+<p><strong>Audio File Modeling</strong>: This type of modeling (also called content-based modeling) is on what we focus on here. It is the same what Facebook does to images, Spotify does to Audio. Spotify analyzes each individual audio file’s characteristics, including tempo, loudness, key and time signature. Based on this, each audio file is indexed to different characteristics. Then this is used as values to suggest songs based on what kind of music the user generally listens to. This approach not only improves the quality of recommendations for existing songs, but also enables the discovery of new songs that are less popular and is therefore very important approach to ensure fairness at the platform and at the music market in general.</p>
+<p>In our work we focused on the second type of modeling because our general interest was to think of an way to democratize platforms such as Spotify and transform them towards an more fair marketplace for listeners AND artists.</p>
+<!-- slanley2011: For example, if you want to judge the similarity of two different pieces of music, should you look at the musical notes, or should you look at what people say about the music? Similarly, how should you find the best movie to recommend to a friend? Shouldn’t the genre of the movie matter? Or when tagging a photo, is it better to look at the pixels, or where the picture lives on the Internet? Iwant to think that content matters, but in all three cases, metadata about the content proves to be more useful. ->** It seems that collaborative filtering (which was aforementioned) tends to outperform content-based recommendations** --->
+<h2 id="related-work">Related Work</h2>
+<ul>
+<li><span class="citation" data-cites="silla2008machine">(<a href="#ref-silla2008machine" role="doc-biblioref">Silla, Koerich, and Kaestner 2008</a>)</span> presents an unconventional approach to
+the standard ’feature-based’ automatic music classification exercise. The paper makes use of Space Decomposition and Time Decomposition, which consist
+respectively of 1) ’decomposing’ variables (features)
+into individual binary classifiers and merging these results to form an aggregate, and 2) ’decomposing’ observations (audio files) into tripartite segments, where
+songs are cut and slices are obtained from different
+parts of the original music signal. The experiment uses
+decision trees as well as a sample pool of 3,160 songs,
+making it similar to our own study in terms of scale
+and tools as well as in its manipulation and encoding
+of variables. Its conclusions show that the explanatory
+capacity of each feature varies ”according to [its] origin in the music signal”.</li>
+<li><span class="citation" data-cites="DBLP:journals/corr/abs-1804-01149">(<a href="#ref-DBLP:journals/corr/abs-1804-01149" role="doc-biblioref">Bahuleyan 2018</a>)</span>, instead, <em>reduces</em> the scope of classification, but increases the granularity of modeling. The exercise looks at classification specifically for ’genre’ of music, and compares a deep learning
+model that uses solely audio spectograms to a second model that relies on manually-labeled features of
+songs. Findings show that a third model (combining
+both models) is the most effective. As in our own
+study, making use of both labels and ’raw’ properties
+proves to be effective.</li>
+<li><span class="citation" data-cites="6703770">(<a href="#ref-6703770" role="doc-biblioref">Scardapane et al. 2013</a>)</span> departs from the classical problem of ML and musical classification (namely: its inherent difficulty) and presents the greater task of classification through the lens of computational load and
+the impact that an automated classification system has
+when used at scale and in the commercial realm. The
+paper uses a novel learning tool, ”Extreme Learning
+Machines” (ELM), to focus on this efficiency and finds
+that, while ’good’ classification remains complex and
+elusive, models such as ELM decrease computational
+costs without loss of effectiveness. The paper’s ideas
+on scaling algorithms and its proximity to commercial
+implications are highly relevant to our study.
+<!--**Footnotes and Sidenotes**
+
+You can use footnotes ^[This is a footnote. You can view this by hovering over the footnote in text.] or sidenotes to elaborate on a concept throughout the paper. 
+
+<aside>
+This is a side note. 
+</aside> -->
+## Proposed Method</li>
+</ul>
+<p>For building our baseline model we choose a multinomial logistic regression model. We do so because we
+will use multiple predictors, namely <em>’length’; ’popularity’; ’acousticness’, ’danceability’, ’energy’, ’instrumentalness’, ’liveness’, ’loudness’, ’speechiness’, ’valence’</em> and
+<em>’tempo’</em> in order to classify an output between three classes (you can find the exhaustive selection of features in Figure 1).
+These classes translate to our three sampled users. Here, the
+aforementioned features come from Spotify’s API (further
+explored in the ’Experiments’ section). The multinomial
+logistic regression is an extension of the two-class logistic
+regression approach which can be applied to all settings of
+K larger than two classes. Beyond this, a logistic regression
+has the advantage of being fast in training and prediction
+time. Moreover, the output can be interpreted as probability
+scores. However, since we have a multi-class problem we
+need to pay attention to how coefficients are interpreted.
+For the interpretation of the coefficients, it is crucial to
+take into account their being tied to the choice of baseline,
+which is one of the three <em>users</em> in our model.
+More precisely, our baseline consists of 1300 samples. The data was separated into 75% training-data (975
+samples) and 25% (325 samples) test-data. For our first
+model we created a pipe consisting of a standardscaler
+and the multi-class logistic regression model. In addition,
+we run cross-validation with ten folds. We report our experiments and exercises metrics <span class="citation" data-cites="barat_2022">(<a href="#ref-barat_2022" role="doc-biblioref">Barat 2022</a>)</span> in the following section.
+In addition we will focus on tree-based methods due
+to the available evidence that tree-based models such as
+XGBoost outperform other models on tabular data <span class="citation" data-cites="borisov2021deep">(<a href="#ref-borisov2021deep" role="doc-biblioref">Borisov et al. 2021</a>)</span>.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span style="display:block;" id="fig:fig1"></span>
+<img src="figures/feature_table_1.png" alt="The table shows all relevant features that are provided by Spotify’s API (besides release year). The left column shows the specific feature’s name and the right hand side offers a brief description of it." width="100%" />
+<p class="caption">
+Figure 1: The table shows all relevant features that are provided by Spotify’s API (besides release year). The left column shows the specific feature’s name and the right hand side offers a brief description of it.
+</p>
+</div>
+</div>
+<h2 id="experiments">Experiments</h2>
+<p><strong>Data</strong>: This project utilized song data taken from directly
+from Spotify playlists. Every year, Spotify releases a <em>top-100 Songs</em> playlist for each of their customers that provides their most listened songs of that year. Playlists
+ranging from 2016 to 2021 were used for the three individuals in the group, and the playlists were chosen because they
+are the most efficient way of illustrating the music tastes of
+each individual. In order to pull this song data into Python,
+Spotipy was used. Spotipy is a lightweight Python library
+for the Spotify Web API. With Spotipy, you are able to gain
+full access to all of the music data provided by the Spotify
+platform.</p>
+<p><strong>Software</strong>: For this project, we utilized Python
+and PyCharm as our IDE. <a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a></p>
+<p><strong>Evaluation method</strong>: Our study employed a standard set
+of evaluation methods. The methods used are based off confusion matrix manipulations:</p>
+<ul>
+<li><ol type="1">
+<li><strong>Base Metrics</strong> - Used simply during experiments as
+quick metrics to evaluate whether models are running correctly, whether results match our expectations, and to form more complex methods. These include <em>Precision</em>, <em>Recall</em>, and <em>Accuracy</em>.<a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a> In general, we
+judged positively models with high precision and recall scores, but kept a critical eye to the trade-off between precision and recall (since improving one of the
+two often results in worsening the other).</li>
+</ol></li>
+<li><ol start="2" type="1">
+<li><strong>F1</strong> - Used as a ’better’ alternative to the base methods, but still not satisfactory as a standalone metric. While the F1 harmonic mean is convenient for
+comparison, the group was wary of the relative importance we deemed appropriate to assign to precision and recall. In other words, F1 was still potentially misleading because it does not take domain
+knowledge into consideration, as well as the fact
+that this effect of <em>unequal-severity-from-different-misclassifications</em> is compounded when the task is a multiclass problem (as is the case here).
+Another important point to highlight here is that of the
+type of F1 used in our evaluation. Between Macro, Micro (Accuracy), and Weighted F1 scores, we decided to
+focus on the Macro scores. Similar to our reasoning in
+previous decision, the class imbalance in our data was
+not so severe that the use of Macro<a href="#fn3" class="footnote-ref" id="fnref3" role="doc-noteref"><sup>3</sup></a> was not impractical when compared to Weighted<a href="#fn4" class="footnote-ref" id="fnref4" role="doc-noteref"><sup>4</sup></a> F1.</li>
+</ol></li>
+<li><ol start="3" type="1">
+<li><strong>Matthew Correlation Coefficient</strong> - Used as the final standalone metric for our models. Though it is
+typically used in binary classification scenarios, the
+Matthew Correlation Coefficient (MCC) shines as well
+in multi-class scenarios. It is more reliabile than the
+base metrics and F1, returning a high score only when
+all confusion matrix categories 5
+are in a good place,
+and, though less necessary for our case, it is also adept
+at taking into account imbalances in datasets.
+Figure 2 illustrates F1 (Macro) and MCC scores between the three primary models.</li>
+</ol></li>
+</ul>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span style="display:block;" id="fig:fig2"></span>
+<img src="figures/metrics.png" alt="Primary Evaluation Metrics." width="100%" />
+<p class="caption">
+Figure 2: Primary Evaluation Metrics.
+</p>
+</div>
+</div>
+<p>In addition, Figure 3 illustrates the Confusion Matrix associated with
+the Random Forest model.
+Interestingly, the number of correct predictions for <em>y</em> = 0
+(Fabian) is strikingly low. We anticipated that this was due
+to a difference in the strength of the Spotify song features
+associated with his playlist. The relationships each of these
+features has with our models will investigated further in the
+Analysis section.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span style="display:block;" id="fig:fig3"></span>
+<img src="figures/RF_confusion.png" alt="RandomForest Confusion Matrix." width="100%" />
+<p class="caption">
+Figure 3: RandomForest Confusion Matrix.
+</p>
+</div>
+</div>
+<p><strong>Experimental details</strong>: We decided to proceed with three
+different classification models to work with our newly created Spotify data that contained information on the three
+individuals. These were: Logistic Regression, XGBoost,
+and Random Forest. Each will be discussed in details in the
+following paragraphs.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span style="display:block;" id="fig:fig4"></span>
+<img src="figures/rf_para_test.png" alt="Random Forest parameters to test." width="100%" />
+<p class="caption">
+Figure 4: Random Forest parameters to test.
+</p>
+</div>
+</div>
+<p>We began our work with a Logistic Regression model.
+We started by setting all of the previously discussed Spotify
+song features as our X-value (our predictors) and for our y-value, we used our newly created ”Users Name” variable.
+The goal of this model was for it to be able to successfully
+determine which songs in the test data belonged to which
+individual. After setting our X and Y values, we split our
+data into X-train, X-test, y-train, and y-test with sklearn’s
+train-test-split function and imported our Logistic Regression model, also from sklearn. The next step was to set up a
+pipeline that first utilized StandardScaler as our scaler and
+Logistic Regression as our model. We made sure to set the
+multi-class for the model as ”multinomial” since there are
+three different classification options. After this process was
+complete, we fit our training data to the model and used it
+to predict our y-value. To help evaluate the effectiveness
+of our model, we utilized cross-validation with the number
+of splits being 10, a random state of 123, and shuffle being
+True. The results of this calculation will be illustrated in the
+next section of this paper, Results.
+Though our Logistic Regression was a good method of beginning our work with the Spotify data, we wanted to
+incorporate additional models in order to determine which
+was the most effective as classifying the Spotify songs by
+individual.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span style="display:block;" id="fig:fig5"></span>
+<img src="figures/xg_param.png" alt="Best XGBOOST paramters" width="100%" />
+<p class="caption">
+Figure 5: Best XGBOOST paramters
+</p>
+</div>
+</div>
+<p>The next model created was XGBoost. XGBoost is a popular machine learning algorithm used to deal
+with structured data for regression and classification. The
+first step in this process was altering our initial y-value to
+make it compatible with XGB. This step involved replacing
+the written name of each individual and replacing it with
+a stand-in numeric value. Therefore, Luke became 2, JP
+became 1, and Fabian became 0. Once this brief step was
+complete, we created a new data structure, Dmatrix, which
+is supported by XGBoost. We were then ready to set up our
+baseline model for XGB with the initial parameters shown
+in Figure 1. Once these initial parameters were set, we were ready to
+fit the model to our previously specified training data. Afterwards, we were able to used this fitted model to predict
+our y-value. To help evaluate this baseline model, we once
+again utilized cross-validation. The results of this calculation will be illustrated in the Results section of the paper.
+With our baseline model completed, we proceeded to the
+hyperparameter tuning portion of the process. In order to
+determine the best parameters for our model, we created
+a set of parameters for us to test with RandomSearchCV.
+We looked at six XGBoost parameters: colsample-bytree,
+learning rate, max depth, alpha, gamma, and min-childweight. The values for these parameters are provided in
+Figure 4.
+Once these parameters to test were set, we set our RandomSearchCV function to fit on our X and y values. After
+this process was complete, we were able to determine which
+combination of the aforementioned parameters gave us the
+best outcome in our model. The resulting best parameters
+are illustrated in Figure 5.
+We then created a final XGBoost model incorporating
+these parameters. The final results of this model will be
+illustrated in depth in the Results section of this paper, but
+we ultimately did observe an increase in performance of the
+model with these new hyper-tuned parameters.</p>
+<p>The final model that we utilized for this project was a
+Random Forest Classifier model. To begin, we set up a
+baseline model with 100 n-estimators. We proceeded to fit
+this baseline model to our training data and used it to predict our y-value. Once again, we utilized cross-validation to
+measure the effectiveness of this baseline model - the results
+of which will be illustrated shortly in the Results section.
+Once our Random Forest baseline model was complete, we
+proceeded with the hyperparameter tuning process. For our
+Random Forest model, we focused on the following parameters: n estimators, max features, max depth, min samples
+split, min samples leaf, and bootstrap. In a near identical process to our hyperparameter tuning of the XGBoost
+model, we provided a number of potential parameter values.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span style="display:block;" id="fig:fig6"></span>
+<img src="figures/rf_param.png" alt="Best Random Forest Parameters" width="100%" />
+<p class="caption">
+Figure 6: Best Random Forest Parameters
+</p>
+</div>
+</div>
+<p>Once the hyperparameter tuning process was completed, we were left with the best parameters to utilize for our Random Forest Model. These best parameters can be found in Figure 6. We went on to incorporate these hyperparameter
+suggestions in our final Random Forest model. Ultimately,
+our Random Forest model ended up being the most effective
+of the three models that we developed.</p>
+<p><strong>Results</strong>: As mentioned during the Experiment Details
+portion of the paper,this section will outline the results of
+our models prior to a more in depth analysis of our findings. In Figure 2, we revisit the previously provided F1 and
+MCC scores for each model utilized for this project. Interestingly, the Random Forest model had the highest F1 score
+at 0.67 compared to values of 0.62 for the Logistic Regression model and 0.62 for the XGBoost model.</p>
+<h2 id="analysis">Analysis</h2>
+<p>Since we already discussed and compared our models to
+the baseline model we want to dig a bit deeper in this section. Since we do not know what features have driven our models (or rather predictions) we include the SHAP (Shapley) value method. SHAP allows us to quantify the contribution of the features in our model. ”An intuitive way to
+understand the Shapley value is the following illustration:
+The feature values enter a room in random order. All feature
+values in the room participate in the game (contribute to the
+prediction). The Shapley value of a feature value is the average change in the prediction that the coalition already in the
+room receives when the feature value joins them” <span class="citation" data-cites="molnar2020interpretable">(<a href="#ref-molnar2020interpretable" role="doc-biblioref">Molnar 2020</a>)</span>. In
+other words the feature’s Shapley value can be interpreted
+as the contribution to the difference between the mean prediction and the actual prediction <span class="citation" data-cites="molnar2020interpretable">(<a href="#ref-molnar2020interpretable" role="doc-biblioref">Molnar 2020</a>)</span>.
+In Figure 7 the interested reader can find a table that
+shows the importance of each of the model’s feature. The
+feature on top is most important feature. According to our
+results, instrumentalness, length, and loudness are the features that contribute the most to the change in probability.
+For instance, instrumentalness is the most important feature
+in our model with a score of 0.12, changing the predicted
+user probability on average by 12 percentage points. However, it is important to mention that the SHAP feature importance relies on the decrease in model performance (without the feature) but contains no information beyond that.</p>
+<div class="layout-chunk" data-layout="l-body">
+<div class="figure"><span style="display:block;" id="fig:fig7"></span>
+<img src="figures/shap_all_avg.png" alt="SHAP Feature Importance measures as the means absolute Shapley values. The instrumentalness is the most important feature, changing the predicted user value probability on average by 12 points." width="100%" />
+<p class="caption">
+Figure 7: SHAP Feature Importance measures as the means absolute Shapley values. The instrumentalness is the most important feature, changing the predicted user value probability on average by 12 points.
+</p>
+</div>
+</div>
+<h2 id="conclusions">Conclusion(s)</h2>
+<p>One of the core limitations of these types of classification models is the assumption that one’s music tastes
+can be simplified to a mere numeric score– that can be
+predicted. There are a number of non-quantifiable factors
+that contribute to one’s music taste, such as the listening
+preferences of peers, what you grew up listening to, or
+music that is representative of your own culture. While
+analyzing the features provided by Spotify for each of the
+songs hosted on their platform can offer very interesting
+insights into the musical preferences of listeners, this
+prediction misses some key external factors in the creation
+of one’s music taste.</p>
+<p>Nowadays recommender systems (such as the one of
+Spotify) rely on usage patterns. These patters rely on combinations of items (music tracks) that users have consumed
+or rated. This provides data about the users’ preferences
+and data about how songs relate to each other <span class="citation" data-cites="van2013deep">(<a href="#ref-van2013deep" role="doc-biblioref">Van den Oord, Dieleman, and Schrauwen 2013</a>)</span>. For
+instance, one core feature of Spotify’s recommender
+system is to compare Users and their favorite artists. A
+simple example: If two user A and B have their top-four
+favorite artists in common but not the fifth, then user A gets
+recommended the top-fifth artist of user B and vice versa.
+This kind of filtering is called collaborative filtering <span class="citation" data-cites="slaney2011web">(<a href="#ref-slaney2011web" role="doc-biblioref">Slaney 2011</a>)</span>.</p>
+<p>Although research suggests that collaborative filtering
+outperforms content-based recommendations, our results
+show that it is possible to perform useful predictions.
+However, since the number of the users (and the songs)
+were rather limited, we can not gather strong claims on that
+topic. Future work should focus in maximizing the size of
+the dataset and focus on the combination of collaborative
+and content-based recommendations. Also, it might be
+useful to take an interdisciplinary angle and consult, for
+example, the field of <em>Sociology of Music</em>.</p>
+<h2 id="acknowledgments">Acknowledgments</h2>
+<p>One of our initial inspirations for this particular project
+came from Adam Reevesman’s article on Towards Data Science<a href="#fn5" class="footnote-ref" id="fnref5" role="doc-noteref"><sup>5</sup></a>. It provided a framework for how Spotipy can be used
+to gather information about an individual’s song preferences
+and encouraged us to pursue this idea further. Additionally,
+the code he utilized to pull and clean the data from Spotify was essential in ensuring that we had a well structured data
+file to work with as we built out our three models.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<div id="refs" class="references csl-bib-body hanging-indent" role="doc-bibliography">
+<div id="ref-DBLP:journals/corr/abs-1804-01149" class="csl-entry" role="doc-biblioentry">
+Bahuleyan, Hareesh. 2018. <span>“Music Genre Classification Using Machine Learning Techniques.”</span> <em>CoRR</em> abs/1804.01149. <a href="http://arxiv.org/abs/1804.01149">http://arxiv.org/abs/1804.01149</a>.
+</div>
+<div id="ref-barat_2022" class="csl-entry" role="doc-biblioentry">
+Barat, Arijit. 2022. <span>“Metrics for Logistic Regression.”</span> <em>Medium</em>. CodeX. <a href="https://medium.com/codex/metrics-for-logistic-regression-db5bf6dee450">https://medium.com/codex/metrics-for-logistic-regression-db5bf6dee450</a>.
+</div>
+<div id="ref-borisov2021deep" class="csl-entry" role="doc-biblioentry">
+Borisov, Vadim, Tobias Leemann, Kathrin Seßler, Johannes Haug, Martin Pawelczyk, and Gjergji Kasneci. 2021. <span>“Deep Neural Networks and Tabular Data: A Survey.”</span> <em>arXiv Preprint arXiv:2110.01889</em>.
+</div>
+<div id="ref-molnar2020interpretable" class="csl-entry" role="doc-biblioentry">
+Molnar, Christoph. 2020. <em>Interpretable Machine Learning</em>. Lulu. com.
+</div>
+<div id="ref-6703770" class="csl-entry" role="doc-biblioentry">
+Scardapane, Simone, Danilo Comminiello, Michele Scarpiniti, and Aurelio Uncini. 2013. <span>“Music Classification Using Extreme Learning Machines.”</span> In <em>2013 8th International Symposium on Image and Signal Processing and Analysis (ISPA)</em>, 377–81. <a href="https://doi.org/10.1109/ISPA.2013.6703770">https://doi.org/10.1109/ISPA.2013.6703770</a>.
+</div>
+<div id="ref-silla2008machine" class="csl-entry" role="doc-biblioentry">
+Silla, Carlos N, Alessandro L Koerich, and Celso AA Kaestner. 2008. <span>“A Machine Learning Approach to Automatic Music Genre Classification.”</span> <em>Journal of the Brazilian Computer Society</em> 14 (3): 7–18.
+</div>
+<div id="ref-slaney2011web" class="csl-entry" role="doc-biblioentry">
+Slaney, Malcolm. 2011. <span>“Web-Scale Multimedia Analysis: Does Content Matter?”</span> <em>IEEE MultiMedia</em> 18 (2): 12–15.
+</div>
+<div id="ref-van2013deep" class="csl-entry" role="doc-biblioentry">
+Van den Oord, Aaron, Sander Dieleman, and Benjamin Schrauwen. 2013. <span>“Deep Content-Based Music Recommendation.”</span> <em>Advances in Neural Information Processing Systems</em> 26.
+</div>
+</div>
+<section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes">
+<hr />
+<ol>
+<li id="fn1"><p>More information about
+Python can be found at: Python Software Foundation.
+Python Language Reference, version 3.9. Available
+at <a href="http://www.python.org" class="uri">http://www.python.org</a> JetBrains, 2017. PyCharm.
+Available at: <a href="https://www.jetbrains.com/pycharm/" class="uri">https://www.jetbrains.com/pycharm/</a>
+ethod<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn2"><p>Note: Accuracy is a poor metric when used individually, and can be
+severely misleading when there is a large class imbalance present in the
+data. In our case, similar volume across classes (400, 400, 500) means that
+Accuracy in conjunction with Precision and Recall was satisfactory for
+’back of the napkin’ calculations. Accuracy was not used for final result
+evaluation<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn3"><p>Simple Arithmetic Mean<a href="#fnref3" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn4"><p>Weighted Average, where each weight is the proportion of samples
+that its parent classification constitutes of the total observations.<a href="#fnref4" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+<li id="fn5"><p><a href="https://towardsdatascience.com/spotify-wrapped-data-visualization-and-machine-learning-on-your-top-songs-1d3f837a9b27" class="uri">https://towardsdatascience.com/spotify-wrapped-data-visualization-and-machine-learning-on-your-top-songs-1d3f837a9b27</a><a href="#fnref5" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
+</ol>
+</section>
+<!--radix_placeholder_article_footer-->
+<!--/radix_placeholder_article_footer-->
+</div>
+
+<div class="d-appendix">
+</div>
+
+
+<!--radix_placeholder_site_after_body-->
+<!--/radix_placeholder_site_after_body-->
+<!--radix_placeholder_appendices-->
+<div class="appendix-bottom">
+<h3 id="references">References</h3>
+<div id="references-listing"></div>
+<h3 id="updates-and-corrections">Corrections</h3>
+<p>If you see mistakes or want to suggest changes, please <a href="https://github.com/lasmit17/SpotifyProject/issues/new">create an issue</a> on the source repository.</p>
+<h3 id="reuse">Reuse</h3>
+<p>Text and figures are licensed under Creative Commons Attribution <a rel="license" href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Source code is available at <a href="https://github.com/lasmit17/SpotifyProject">https://github.com/lasmit17/SpotifyProject</a>, unless otherwise noted. The figures that have been reused from other sources don't fall under this license and can be recognized by a note in their caption: "Figure from ...".</p>
+</div>
+<!--/radix_placeholder_appendices-->
+<!--radix_placeholder_navigation_after_body-->
+<!--/radix_placeholder_navigation_after_body-->
+
+</body>
+
+</html>
